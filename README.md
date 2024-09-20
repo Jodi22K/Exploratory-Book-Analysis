@@ -1,13 +1,13 @@
 #### exploratory-book-analysis
-I love reading! This is a project I made to demonstrate data cleaning, querying, and visualization with Excel, Python &amp; PowerBI.
+I love reading! This is a project I made to demonstrate data cleaning, querying, and visualization with Excel, SQL; PowerBI.
 ### **Executive Summary:**
-This project explores the trends in book genres over time using **SQL**, **Python**, and **Power BI**. I pulled book genre data from the database, cleaned and analyzed it, and then created a dashboard to visualize how genre popularity has changed over the years. After identifying key trends, such as the steady rise of Science Fiction and Fantasy genres and the decline in popularity of Romance, I offer insights on how publishers and authors can adapt to these changes to cater to reader preferences.
+This project explores the trends in book genres over time using **SQL** and **Power BI**. I pulled book genre data from the database, cleaned, modified, and analyzed it, and then created a dashboard to visualize how genre popularity has changed over the years. After identifying key trends, such as the steady rise of Science Fiction and Fantasy genres and the decline in popularity of Romance, I offer insights on how publishers and authors can adapt to these changes to cater to reader preferences.
 
 **Key Findings & Recommendations**:
 - **Key Genres Growing**: Science Fiction and Fantasy have shown consistent growth, suggesting that publishers should increase their focus on these genres.
 - **Declining Genres**: Romance and Historical Fiction have seen a decrease in popularity. Publishers may need to reconsider their approach to promoting these genres or introduce sub-genres to attract new readers.
 - **Actionable Recommendations**:
-  - Focus on emerging trends within popular genres, such as dystopian themes in Science Fiction.
+  - Focus on emerging trends within popular genre. 
   - Develop targeted marketing strategies for declining genres to reignite interest, possibly by connecting with new, relevant audiences.
 
 ### **Business Problem:**
@@ -19,20 +19,17 @@ Publishing companies and authors need to understand changing reader preferences 
 
 #### **Key Steps**:
 **Excel**:
-Cleaned the dataset to standardize genre names and eliminate incomplete data in Python with Excel.
+Cleaned the dataset to standardize genre names and authors, eliminate inaccurate ajd incomplete data manually with Excel.
 **SQL**:
-Used **JOINs** and **aggregate functions** to calculate yearly sales for each genre.
+Used **CRUD** operations, **CTEs** **JOINs** and **aggregate functions** to calculate required metrics
 **Power BI**:
 Created a visually engaging dashboard showing genre trends over time using **DAX functions**, calculated columns, and **data modeling**.
-**Python**:
-
-
-Used **Pandas**, **Matplotlib**, and **NumPy** to analyze the data further, applying basic statistical models to forecast future trends.
 
 ### **Skills**:
+**EXCEL**: Data Cleaning, Data Manipulation
 **SQL**: Proficiency with joins, CTEs, aggregate functions, and data transformation.
 **Power BI**: Expertise in DAX, data visualization, ETL, and dashboard creation.
-**Python**: Used libraries such as Pandas and Matplotlib for advanced analysis and plotting trends.
+
 
 ### **Results & Business Recommendation:**
 The Power BI dashboard provides stakeholders with clear insights into genre trends across decades, helping publishers decide where to invest resources for future book releases. Here's what the data showed:
@@ -45,8 +42,7 @@ The Power BI dashboard provides stakeholders with clear insights into genre tren
 2. **Targeted Campaigns for Declining Genres**: Introduce fresh sub-genres or rebrand older ones to spark renewed interest in declining genres like Romance.
 3. **Cross-Genre Experimentation**: Encourage authors to experiment with hybrid genres (e.g., Fantasy-Romance) to draw in readers from multiple fanbases.
 
-### **Next Steps**:
-1. **Run an A/B Test**: Test marketing campaigns for different genres to determine which strategies are most effective in driving sales.
+### **Next Steps**:.
 2. **Collaborate with Authors**: Work with authors to create content that aligns with trending genre preferences while incorporating elements from less popular genres.
 3. **Measure Success**: Use Power BI to track changes in genre popularity after implementing new strategies, evaluating the success of marketing efforts.
 

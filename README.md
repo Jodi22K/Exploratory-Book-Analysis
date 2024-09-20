@@ -18,17 +18,17 @@ Publishing companies and authors need to understand changing reader preferences 
 2. **Visualization**: Built a Power BI dashboard to visualize the trends in genre popularity over the years, highlighting key periods of growth and decline, adding optional tools to filter based on genre, year, and demographic.
 
 #### **Key Steps**:
-**Excel**:
++ **Excel**:
 Cleaned the dataset to standardize genre names and authors, eliminate inaccurate ajd incomplete data manually with Excel.
-**SQL**:
++ **SQL**:
 Used **CRUD** operations, **CTEs** **JOINs** and **aggregate functions** to calculate required metrics
-**Power BI**:
++ **Power BI**:
 Created a visually engaging dashboard showing genre trends over time using **DAX functions**, calculated columns, and **data modeling**.
 
 ### **Skills**:
-**EXCEL**: Data Cleaning, Data Manipulation
-**SQL**: Proficiency with joins, CTEs, aggregate functions, and data transformation.
-**Power BI**: Expertise in DAX, data visualization, ETL, and dashboard creation.
++ **EXCEL**: Data Cleaning, Data Manipulation
++ **SQL**: Proficiency with joins, CTEs, aggregate functions, and data transformation.
++ **Power BI**: Expertise in DAX, data visualization, ETL, and dashboard creation.
 
 
 ### **Results & Business Recommendation:**

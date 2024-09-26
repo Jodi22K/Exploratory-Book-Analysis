@@ -3,7 +3,6 @@
 SELECT *
 FROM books
 WHERE Genre = '';
-
 UPDATE books
 SET Genre = 'Biography/Autobiography/Memoir'
 WHERE `Index` = 475;
@@ -24,7 +23,7 @@ WHERE Genre = 'Biography/Autobiography';
 UPDATE books
 SET Genre = 'Self-Help & Instruction'
 WHERE Genre = 'Self-Help and Instruction';
-
+SELECT * FROM books;
 UPDATE books
 SET Genre = 'Adventure'
 WHERE `Index` = 548;
@@ -103,12 +102,14 @@ UPDATE books
 SET Publisher = 'HarperCollins'
 WHERE Publisher LIKE '%HarperCollins%';
 
+#final look at cleaned up table
+SELECT * FROM books;
+
 # With all our data cleaned up, we can now accurate organize the data according to highest rated genres
 SELECT 
     Genre,
     AVG(Book_average_rating) AS average_rating,
-    SUM(gross_sales) AS total_gross_sales,
-    SUM(units_sold) AS total_units_sold
+    SUM(gross_sales) AS total_gross_sales
 FROM 
     books
 GROUP BY 
@@ -135,7 +136,7 @@ SELECT
     Publisher,
     SUM(gross_sales) AS total_gross_sales,
     AVG(Book_average_rating) AS average_rating,
-    SUM(units_sold) AS total_units_sold
+    SUM(publisher_revenue) AS total_publisher_revenue
 FROM 
     books
 GROUP BY 
@@ -148,15 +149,14 @@ SELECT
     Genre,
     Publishing_Year,
     SUM(gross_sales) AS total_gross_sales,
-    SUM(units_sold) AS total_units_sold,
     AVG(Book_average_rating) AS average_rating
-    
 FROM 
     books
 GROUP BY 
     Genre, Publishing_Year
 ORDER BY 
     Genre, Publishing_Year;
+
     
 # Find publisher performance in specific genres, ranked by total gross sales
 SELECT 
@@ -187,15 +187,43 @@ ORDER BY
     sale_price DESC
 LIMIT 10;
 
-# Step 11: Analyze how author rating correlates with gross sales, average book rating, and units sold
 SELECT 
-    Author_Rating,
+    Genre,
+    Publishing_Year,
     SUM(gross_sales) AS total_gross_sales,
-    AVG(Book_average_rating) AS average_book_rating,
-    SUM(units_sold) AS total_units_sold
+    AVG(Book_average_rating) AS average_rating
 FROM 
     books
 GROUP BY 
-    Author_Rating
+    Genre, Publishing_Year
 ORDER BY 
-    total_gross_sales DESC;
+    Genre, Publishing_Year;
+    
+# Step 11: Analyze how author rating correlates with gross sales, average book rating,  over time
+SELECT 
+    Author_Rating,
+    Publishing_Year,
+    SUM(gross_sales) AS total_gross_sales,
+    AVG(Book_average_rating) AS average_book_rating
+FROM  
+    books
+GROUP BY 
+    Author_Rating,  -- Grouping by Author Rating to track by category
+    Publishing_Year -- Grouping by year to track changes over time
+ORDER BY 
+    Publishing_Year, -- Sorting results by year for proper chronological order
+    Author_Rating;  -- Sorting by Author Rating for better readability
+
+#general query for ratings over time sorted by author rating, publisher, or genre
+SELECT 
+    Publishing_Year,
+    Genre,
+    Publisher,
+    Author_Rating,
+    AVG(Book_average_rating) AS average_rating
+FROM 
+    books
+GROUP BY 
+    Publishing_Year, Genre, Publisher, Author_Rating
+ORDER BY 
+    Publishing_Year;  -- Default sorting by year

@@ -1,0 +1,882 @@
+Publishing_Year,Genre,Publisher,Author_Rating,average_rating
+-380,Classics,"Amazon Digital Services,  Inc.",Intermediate,3.900000
+-430,Classics,"Hachette Book Group",Intermediate,3.670000
+-441,Classics,"Amazon Digital Services,  Inc.",Intermediate,3.600000
+-560,Classics,"Amazon Digital Services,  Inc.",Excellent,4.050000
+1308,Classics,"Amazon Digital Services,  Inc.",Excellent,4.060000
+1320,Classics,"Hachette Book Group",Intermediate,3.990000
+1390,"Literary Fiction","Amazon Digital Services,  Inc.",Novice,3.480000
+1593,Classics,"Hachette Book Group",Intermediate,3.810000
+1596,Classics,"Amazon Digital Services,  Inc.",Intermediate,3.780000
+1599,Classics,"Amazon Digital Services,  Inc.",Intermediate,3.650000
+1601,Classics,"Penguin Group (USA) LLC",Intermediate,3.970000
+1603,Classics,"Amazon Digital Services,  Inc.",Intermediate,3.890000
+1605,Classics,"Hachette Book Group",Intermediate,3.850000
+1623,Classics,"Amazon Digital Services,  Inc.",Intermediate,3.800000
+1667,Classics,"Amazon Digital Services,  Inc.",Intermediate,3.800000
+1678,Classics,"Penguin Group (USA) LLC",Intermediate,3.980000
+1759,Classics,"Amazon Digital Services,  Inc.",Intermediate,3.760000
+1812,"Children's Literature","Amazon Digital Services,  Inc.",Intermediate,4.310000
+1812,Adventure,"Amazon Digital Services,  Inc.",Intermediate,3.920000
+1823,"Children's Literature","Amazon Digital Services,  Inc.",Excellent,4.360000
+1826,"Historical Fiction","Amazon Digital Services,  Inc.",Intermediate,3.690000
+1830,Essays/Journalism,"Random House LLC",Excellent,4.370000
+1831,Classics,"Amazon Digital Services,  Inc.",Intermediate,3.970000
+1835,"Children's Literature","Amazon Digital Services,  Inc.",Excellent,4.280000
+1847,Classics,"Amazon Digital Services,  Inc.",Intermediate,3.760000
+1848,Essays/Journalism,"Amazon Digital Services,  Inc.",Intermediate,3.510000
+1849,Classics,"Hachette Book Group",Intermediate,3.960000
+1852,"Historical Fiction",HarperCollins,Intermediate,3.830000
+1853,Biography/Autobiography/Memoir,"Random House LLC",Excellent,4.150000
+1853,Classics,HarperCollins,Intermediate,4.000000
+1854,Classics,"Amazon Digital Services,  Inc.",Excellent,4.130000
+1854,Essays/Journalism,"Random House LLC",Intermediate,3.790000
+1856,Classics,"Amazon Digital Services,  Inc.",Intermediate,3.640000
+1859,Mystery,"Amazon Digital Services,  Inc.",Intermediate,3.980000
+1859,Essays/Journalism,HarperCollins,Intermediate,3.970000
+1864,"Science Fiction",Macmillan,Intermediate,3.840000
+1864,"Literary Fiction","Random House LLC",Excellent,4.170000
+1868,Classics,"Penguin Group (USA) LLC",Excellent,4.180000
+1869,"Science Fiction","Amazon Digital Services,  Inc.",Intermediate,3.860000
+1871,Fantasy,"Simon and Schuster Digital Sales Inc",Excellent,4.060000
+1871,"Historical Fiction","Penguin Group (USA) LLC",Novice,3.210000
+1871,Classics,"Amazon Digital Services,  Inc.",Intermediate,3.930000
+1872,Adventure,"Penguin Group (USA) LLC",Intermediate,3.900000
+1874,Classics,HarperCollins,Intermediate,3.920000
+1879,Classics,"Hachette Book Group",Intermediate,3.690000
+1880,"Children's Literature","Penguin Group (USA) LLC",Intermediate,3.970000
+1881,Classics,"Random House LLC",Intermediate,3.840000
+1883,Essays/Journalism,"Penguin Group (USA) LLC",Excellent,4.050000
+1886,Thriller,"Random House LLC",Intermediate,3.940000
+1890,Essays/Journalism,"Amazon Digital Services,  Inc.",Excellent,4.210000
+1891,"Literary Fiction","Hachette Book Group",Intermediate,3.770000
+1891,Crime,"Amazon Digital Services,  Inc.",Excellent,4.220000
+1894,Mystery,"Penguin Group (USA) LLC",Famous,4.500000
+1894,Crime,HarperCollins,Excellent,4.320000
+1894,"Children's Literature","Amazon Digital Services,  Inc.",Intermediate,3.940000
+1896,"Science Fiction","Amazon Digital Services,  Inc.",Intermediate,3.720000
+1897,"Science Fiction","Amazon Digital Services,  Inc.",Intermediate,3.800000
+1897,"Science Fiction",Macmillan,Intermediate,3.620000
+1899,"Literary Fiction","Amazon Digital Services,  Inc.",Intermediate,3.630000
+1901,"Children's Literature","Penguin Group (USA) LLC",Intermediate,4.170000
+1902,Mystery,Macmillan,Intermediate,4.090000
+1902,Biography/Autobiography/Memoir,"Amazon Digital Services,  Inc.",Intermediate,4.070000
+1905,"Children's Literature","Random House LLC",Intermediate,4.200000
+1905,"Literary Fiction","Amazon Digital Services,  Inc.",Intermediate,3.940000
+1905,Adventure,"Hachette Book Group",Excellent,4.060000
+1905,Classics,"Simon and Schuster Digital Sales Inc",Excellent,4.070000
+1906,Adventure,"Random House LLC",Intermediate,3.940000
+1906,"Literary Fiction","Random House LLC",Intermediate,3.720000
+1908,"Children's Literature","Random House LLC",Famous,4.420000
+1908,"Literary Fiction","Amazon Digital Services,  Inc.",Intermediate,3.910000
+1908,"Children's Literature","Penguin Group (USA) LLC",Intermediate,3.980000
+1909,"Children's Literature","Amazon Digital Services,  Inc.",Excellent,4.210000
+1909,Classics,"Amazon Digital Services,  Inc.",Intermediate,3.970000
+1911,"Literary Fiction",HarperCollins,Novice,3.350000
+1912,"Literary Fiction","Amazon Digital Services,  Inc.",Intermediate,3.900000
+1914,Mystery,"Random House LLC",Famous,4.460000
+1914,"Literary Fiction","Random House LLC",Intermediate,3.850000
+1915,"Young Adult","Random House LLC",Excellent,4.210000
+1916,Classics,"Random House LLC",Intermediate,3.600000
+1918,"Literary Fiction","Amazon Digital Services,  Inc.",Intermediate,3.760000
+1920,Mystery,"Amazon Digital Services,  Inc.",Intermediate,3.980000
+1920,Classics,"Amazon Digital Services,  Inc.",Intermediate,3.930000
+1922,"Children's Literature","Random House LLC",Intermediate,4.290000
+1922,"Literary Fiction","Amazon Digital Services,  Inc.",Intermediate,3.740000
+1925,"Literary Fiction","Amazon Digital Services,  Inc.",Intermediate,3.880000
+1926,Mystery,"Amazon Digital Services,  Inc.",Excellent,4.200000
+1927,"Literary Fiction","Amazon Digital Services,  Inc.",Excellent,4.110000
+1927,Classics,Macmillan,Intermediate,3.760000
+1928,"Children's Literature","Amazon Digital Services,  Inc.",Excellent,4.360000
+1929,"Literary Fiction","Hachette Book Group",Intermediate,3.860000
+1930,"Children's Literature","Amazon Digital Services,  Inc.",Excellent,4.150000
+1930,Mystery,HarperCollins,Excellent,4.030000
+1930,Mystery,"Hachette Book Group",Intermediate,3.920000
+1930,"Literary Fiction",HarperCollins,Intermediate,3.720000
+1931,"Self-Help & Instruction","Hachette Book Group",Excellent,4.140000
+1932,"Children's Literature","Amazon Digital Services,  Inc.",Intermediate,4.160000
+1932,"Science Fiction","Amazon Digital Services,  Inc.",Intermediate,4.160000
+1933,"Literary Fiction","Amazon Digital Services,  Inc.",Intermediate,3.830000
+1934,"Children's Literature","Amazon Digital Services,  Inc.",Excellent,4.050000
+1934,Mystery,"Amazon Digital Services,  Inc.",Intermediate,4.160000
+1935,"Historical Fiction",HarperCollins,Intermediate,4.180000
+1937,Classics,HarperCollins,Excellent,4.190000
+1937,"Self-Help & Instruction","Amazon Digital Services,  Inc.",Intermediate,4.170000
+1938,"Young Adult","Amazon Digital Services,  Inc.",Excellent,4.120000
+1938,"Science Fiction","Amazon Digital Services,  Inc.",Intermediate,3.620000
+1939,Crime,"Amazon Digital Services,  Inc.",Excellent,4.040000
+1939,"Children's Literature","Amazon Digital Services,  Inc.",Intermediate,4.220000
+1940,"Literary Fiction","Amazon Digital Services,  Inc.",Intermediate,3.965000
+1941,"Children's Literature","Amazon Digital Services,  Inc.",Excellent,4.130000
+1941,"Children's Literature",HarperCollins,Excellent,4.210000
+1942,"Children's Literature","Simon and Schuster Digital Sales Inc",Excellent,4.090000
+1945,"Literary Fiction","Amazon Digital Services,  Inc.",Intermediate,3.830000
+1945,"Children's Literature","Amazon Digital Services,  Inc.",Excellent,4.110000
+1945,Fantasy,"Penguin Group (USA) LLC",Excellent,4.280000
+1945,"Children's Literature","Amazon Digital Services,  Inc.",Intermediate,3.880000
+1945,"Literary Fiction",HarperCollins,Excellent,4.020000
+1947,"Children's Literature","Amazon Digital Services,  Inc.",Novice,3.410000
+1947,"Literary Fiction","Amazon Digital Services,  Inc.",Intermediate,3.970000
+1948,"Children's Literature","Simon and Schuster Digital Sales Inc",Intermediate,4.280000
+1949,Classics,"Penguin Group (USA) LLC",Novice,3.490000
+1950,"Science Fiction","Amazon Digital Services,  Inc.",Intermediate,4.120000
+1950,"Self-Help & Instruction","Hachette Book Group",Intermediate,3.830000
+1950,"Science Fiction","Amazon Digital Services,  Inc.",Excellent,4.260000
+1952,"Literary Fiction","Amazon Digital Services,  Inc.",Intermediate,3.840000
+1952,"Science Fiction","Amazon Digital Services,  Inc.",Intermediate,4.200000
+1952,Fantasy,"Hachette Book Group",Excellent,4.020000
+1952,"Self-Help & Instruction","Amazon Digital Services,  Inc.",Excellent,4.080000
+1952,Classics,"Penguin Group (USA) LLC",Intermediate,3.810000
+1953,Fantasy,"Hachette Book Group",Intermediate,3.950000
+1953,"Children's Literature","Random House LLC",Intermediate,4.330000
+1953,"Self-Help & Instruction","Amazon Digital Services,  Inc.",Excellent,4.140000
+1953,"Science Fiction","Amazon Digital Services,  Inc.",Excellent,4.090000
+1953,"Literary Fiction","Amazon Digital Services,  Inc.",Intermediate,4.190000
+1953,"Science Fiction",HarperCollins,Excellent,4.310000
+1954,Fantasy,"Penguin Group (USA) LLC",Intermediate,3.900000
+1954,"Children's Literature","Amazon Digital Services,  Inc.",Excellent,4.160000
+1954,Horror,"Amazon Digital Services,  Inc.",Intermediate,3.990000
+1955,"Children's Literature","Random House LLC",Intermediate,3.970000
+1955,"Children's Literature","Amazon Digital Services,  Inc.",Excellent,4.240000
+1956,Essays/Journalism,HarperCollins,Excellent,4.140000
+1956,"Young Adult",Macmillan,Excellent,4.060000
+1956,Fantasy,"Amazon Digital Services,  Inc.",Intermediate,4.020000
+1957,"Literary Fiction",HarperCollins,Excellent,4.030000
+1958,Fantasy,Macmillan,Excellent,4.080000
+1958,"Historical Fiction","Penguin Group (USA) LLC",Intermediate,3.970000
+1958,"Literary Fiction","Amazon Digital Services,  Inc.",Intermediate,3.915000
+1958,Biography/Autobiography/Memoir,"Amazon Digital Services,  Inc.",Excellent,4.090000
+1958,"Historical Fiction","Random House LLC",Excellent,4.330000
+1959,"Literary Fiction","Amazon Digital Services,  Inc.",Intermediate,3.560000
+1959,"Science Fiction","Hachette Book Group",Intermediate,3.990000
+1959,"Literary Fiction","Amazon Digital Services,  Inc.",Novice,3.460000
+1959,"Science Fiction","Amazon Digital Services,  Inc.",Excellent,4.160000
+1959,"Historical Fiction","Amazon Digital Services,  Inc.",Excellent,4.180000
+1959,"Science Fiction","Amazon Digital Services,  Inc.",Intermediate,3.970000
+1960,"Children's Literature","Penguin Group (USA) LLC",Intermediate,4.160000
+1960,"Historical Fiction",HarperCollins,Excellent,4.150000
+1960,"Children's Literature","Simon and Schuster Digital Sales Inc",Intermediate,4.120000
+1961,"Literary Fiction","Penguin Group (USA) LLC",Intermediate,3.890000
+1961,"Children's Literature","Penguin Group (USA) LLC",Excellent,4.080000
+1961,Fantasy,"Amazon Digital Services,  Inc.",Intermediate,4.220000
+1962,"Children's Literature","Amazon Digital Services,  Inc.",Excellent,4.130000
+1962,Classics,"Hachette Book Group",Intermediate,3.940000
+1962,"Science Fiction","Hachette Book Group",Intermediate,3.660000
+1963,"Young Adult","Penguin Group (USA) LLC",Excellent,4.150000
+1964,Biography/Autobiography/Memoir,"Penguin Group (USA) LLC",Excellent,4.040000
+1965,Biography/Autobiography/Memoir,"Random House LLC",Intermediate,4.290000
+1966,Classics,"Random House LLC",Excellent,4.060000
+1966,"Science Fiction","Penguin Group (USA) LLC",Excellent,4.170000
+1967,Horror,"Amazon Digital Services,  Inc.",Intermediate,3.960000
+1967,"Literary Fiction","Amazon Digital Services,  Inc.",Excellent,4.030000
+1967,"Children's Literature","Amazon Digital Services,  Inc.",Intermediate,4.150000
+1967,"Literary Fiction","Amazon Digital Services,  Inc.",Intermediate,4.320000
+1967,"Children's Literature","Hachette Book Group",Intermediate,4.190000
+1968,Essays/Journalism,"Amazon Digital Services,  Inc.",Intermediate,3.920000
+1968,Fantasy,"Amazon Digital Services,  Inc.",Excellent,4.140000
+1968,Fantasy,"Amazon Digital Services,  Inc.",Intermediate,3.990000
+1969,"Science Fiction","Random House LLC",Excellent,4.050000
+1969,"Science Fiction","Amazon Digital Services,  Inc.",Intermediate,3.860000
+1970,"Young Adult","Amazon Digital Services,  Inc.",Intermediate,3.890000
+1970,"Children's Literature",HarperCollins,Excellent,4.180000
+1970,"Literary Fiction","Amazon Digital Services,  Inc.",Intermediate,3.895000
+1970,"Science Fiction","Amazon Digital Services,  Inc.",Intermediate,3.960000
+1971,Thriller,"Amazon Digital Services,  Inc.",Excellent,4.250000
+1971,"Children's Literature","Amazon Digital Services,  Inc.",Famous,4.450000
+1971,"Literary Fiction",HarperCollins,Excellent,4.010000
+1971,Horror,"Amazon Digital Services,  Inc.",Intermediate,4.140000
+1971,"Children's Literature","Amazon Digital Services,  Inc.",Intermediate,4.130000
+1972,Fantasy,"Amazon Digital Services,  Inc.",Excellent,4.110000
+1972,"Children's Literature","Amazon Digital Services,  Inc.",Intermediate,4.220000
+1972,"Children's Literature","Penguin Group (USA) LLC",Excellent,4.090000
+1972,"Self-Help & Instruction","Penguin Group (USA) LLC",Excellent,4.310000
+1972,"Historical Fiction","Amazon Digital Services,  Inc.",Excellent,4.310000
+1973,"Literary Fiction",HarperCollins,Intermediate,3.990000
+1973,"Science Fiction","Amazon Digital Services,  Inc.",Excellent,4.065000
+1973,Fantasy,"Amazon Digital Services,  Inc.",Famous,4.590000
+1974,"Science Fiction","Amazon Digital Services,  Inc.",Excellent,4.150000
+1974,"Self-Help & Instruction","Amazon Digital Services,  Inc.",Intermediate,3.760000
+1974,Crime,"Amazon Digital Services,  Inc.",Intermediate,4.000000
+1974,"Historical Fiction","Amazon Digital Services,  Inc.",Excellent,4.300000
+1974,Horror,"Simon and Schuster Digital Sales Inc",Intermediate,3.960000
+1975,Fantasy,"Amazon Digital Services,  Inc.",Intermediate,3.850000
+1975,"Historical Fiction","Hachette Book Group",Excellent,4.370000
+1975,Classics,HarperCollins,Novice,3.420000
+1976,"Young Adult","Hachette Book Group",Intermediate,3.790000
+1976,"Historical Fiction",Macmillan,Famous,4.420000
+1976,"Science Fiction","Amazon Digital Services,  Inc.",Excellent,4.110000
+1976,"Science Fiction","Amazon Digital Services,  Inc.",Intermediate,3.900000
+1977,Fantasy,"Random House LLC",Intermediate,3.870000
+1977,Horror,"Hachette Book Group",Intermediate,3.820000
+1977,"Children's Literature","Penguin Group (USA) LLC",Excellent,4.260000
+1978,Adventure,"Amazon Digital Services,  Inc.",Excellent,4.160000
+1978,Fantasy,"Amazon Digital Services,  Inc.",Excellent,4.130000
+1978,"Children's Literature","Penguin Group (USA) LLC",Excellent,4.145000
+1978,"Self-Help & Instruction","Amazon Digital Services,  Inc.",Excellent,4.030000
+1978,"Young Adult","Amazon Digital Services,  Inc.",Excellent,4.030000
+1978,Horror,"Amazon Digital Services,  Inc.",Intermediate,3.960000
+1979,"Historical Fiction","Amazon Digital Services,  Inc.",Excellent,4.180000
+1979,Horror,HarperCollins,Intermediate,3.900000
+1979,Fantasy,"Amazon Digital Services,  Inc.",Excellent,4.170000
+1979,Thriller,"Hachette Book Group",Excellent,4.110000
+1979,Horror,"Amazon Digital Services,  Inc.",Intermediate,3.790000
+1979,Thriller,"Amazon Digital Services,  Inc.",Excellent,4.270000
+1980,"Science Fiction","Penguin Group (USA) LLC",Excellent,4.350000
+1980,"Children's Literature","Random House LLC",Intermediate,3.940000
+1980,"Children's Literature","Amazon Digital Services,  Inc.",Intermediate,3.890000
+1980,Horror,"Amazon Digital Services,  Inc.",Intermediate,3.920000
+1980,"Science Fiction","Penguin Group (USA) LLC",Intermediate,4.220000
+1980,"Literary Fiction","Amazon Digital Services,  Inc.",Excellent,4.040000
+1980,Thriller,"Random House LLC",Intermediate,3.550000
+1980,Essays/Journalism,"Amazon Digital Services,  Inc.",Intermediate,4.070000
+1980,Horror,Macmillan,Intermediate,3.850000
+1981,Horror,"Amazon Digital Services,  Inc.",Intermediate,3.650000
+1981,"Self-Help & Instruction","Amazon Digital Services,  Inc.",Intermediate,3.850000
+1981,"Historical Fiction","Amazon Digital Services,  Inc.",Intermediate,3.990000
+1981,"Literary Fiction","Simon and Schuster Digital Sales Inc",Intermediate,3.950000
+1982,Fantasy,"Random House LLC",Excellent,4.170000
+1982,Fantasy,"Amazon Digital Services,  Inc.",Intermediate,4.120000
+1982,"Literary Fiction","Amazon Digital Services,  Inc.",Excellent,4.160000
+1982,"Science Fiction","Hachette Book Group",Intermediate,4.190000
+1982,"Historical Fiction","Amazon Digital Services,  Inc.",Intermediate,4.340000
+1982,Crime,"Amazon Digital Services,  Inc.",Intermediate,3.820000
+1982,"Literary Fiction","Simon and Schuster Digital Sales Inc",Intermediate,4.270000
+1982,"Self-Help & Instruction",HarperCollins,Excellent,4.010000
+1983,Fantasy,"Amazon Digital Services,  Inc.",Excellent,4.130000
+1983,"Young Adult","Penguin Group (USA) LLC",Excellent,4.270000
+1983,Horror,"Amazon Digital Services,  Inc.",Intermediate,3.720000
+1984,Biography/Autobiography/Memoir,"Amazon Digital Services,  Inc.",Excellent,4.290000
+1984,Horror,"Amazon Digital Services,  Inc.",Intermediate,3.660000
+1984,Fantasy,"Simon and Schuster Digital Sales Inc",Excellent,4.030000
+1984,"Historical Fiction","Random House LLC",Intermediate,3.990000
+1984,Horror,"Amazon Digital Services,  Inc.",Excellent,4.120000
+1984,Fantasy,"Amazon Digital Services,  Inc.",Excellent,4.205000
+1984,"Literary Fiction","Amazon Digital Services,  Inc.",Intermediate,3.570000
+1984,"Science Fiction",HarperCollins,Excellent,4.080000
+1985,"Historical Fiction","Amazon Digital Services,  Inc.",Famous,4.470000
+1985,"Science Fiction","Random House LLC",Excellent,4.110000
+1985,"Historical Fiction","Penguin Group (USA) LLC",Excellent,4.180000
+1985,Horror,"Random House LLC",Intermediate,3.930000
+1985,"Literary Fiction","Amazon Digital Services,  Inc.",Excellent,4.150000
+1985,"Literary Fiction","Amazon Digital Services,  Inc.",Intermediate,3.953333
+1985,"Children's Literature","Amazon Digital Services,  Inc.",Intermediate,4.290000
+1985,Fantasy,"Amazon Digital Services,  Inc.",Intermediate,4.050000
+1985,Biography/Autobiography/Memoir,"Random House LLC",Excellent,4.040000
+1986,"Children's Literature","Amazon Digital Services,  Inc.",Intermediate,4.340000
+1986,Fantasy,"Amazon Digital Services,  Inc.",Excellent,4.300000
+1986,Fantasy,"Amazon Digital Services,  Inc.",Intermediate,3.940000
+1986,Crime,"Amazon Digital Services,  Inc.",Excellent,4.100000
+1986,Action,"Amazon Digital Services,  Inc.",Intermediate,4.250000
+1986,"Children's Literature","Amazon Digital Services,  Inc.",Excellent,4.110000
+1986,Biography/Autobiography/Memoir,"Amazon Digital Services,  Inc.",Famous,4.530000
+1986,Thriller,"Penguin Group (USA) LLC",Intermediate,4.090000
+1986,Horror,"Amazon Digital Services,  Inc.",Excellent,4.240000
+1987,Action,HarperCollins,Intermediate,4.230000
+1987,Thriller,"Amazon Digital Services,  Inc.",Excellent,4.040000
+1987,Fantasy,HarperCollins,Intermediate,4.075000
+1987,"Science Fiction","Amazon Digital Services,  Inc.",Intermediate,3.970000
+1987,Fantasy,"Amazon Digital Services,  Inc.",Intermediate,4.110000
+1987,Thriller,"Amazon Digital Services,  Inc.",Intermediate,4.110000
+1987,"Science Fiction","Random House LLC",Intermediate,3.770000
+1987,"Literary Fiction","Amazon Digital Services,  Inc.",Excellent,4.130000
+1987,Horror,"Amazon Digital Services,  Inc.",Intermediate,4.160000
+1987,Crime,"Random House LLC",Intermediate,3.750000
+1987,Biography/Autobiography/Memoir,"Penguin Group (USA) LLC",Famous,4.610000
+1987,Horror,"Amazon Digital Services,  Inc.",Famous,3.480000
+1988,Action,"Random House LLC",Intermediate,4.360000
+1988,Fantasy,"Amazon Digital Services,  Inc.",Intermediate,3.860000
+1988,"Children's Literature","Amazon Digital Services,  Inc.",Famous,4.650000
+1988,"Children's Literature","Amazon Digital Services,  Inc.",Excellent,4.360000
+1988,"Literary Fiction","Amazon Digital Services,  Inc.",Intermediate,3.940000
+1988,Essays/Journalism,Macmillan,Excellent,4.100000
+1989,Fantasy,"Amazon Digital Services,  Inc.",Intermediate,4.300000
+1989,Fantasy,"Amazon Digital Services,  Inc.",Excellent,4.245000
+1989,"Children's Literature","Simon and Schuster Digital Sales Inc",Excellent,4.210000
+1989,"Children's Literature","Amazon Digital Services,  Inc.",Intermediate,4.290000
+1989,"Historical Fiction","Random House LLC",Excellent,4.340000
+1989,"Literary Fiction","Random House LLC",Excellent,4.100000
+1989,Thriller,"Hachette Book Group",Intermediate,4.080000
+1989,"Science Fiction","Amazon Digital Services,  Inc.",Intermediate,4.210000
+1989,Horror,Macmillan,Intermediate,3.740000
+1990,Classics,"Amazon Digital Services,  Inc.",Intermediate,3.810000
+1990,"Science Fiction","Simon and Schuster Digital Sales Inc",Excellent,4.180000
+1990,Horror,HarperCollins,Intermediate,3.900000
+1990,"Young Adult","Amazon Digital Services,  Inc.",Intermediate,3.860000
+1990,Horror,"Amazon Digital Services,  Inc.",Excellent,4.100000
+1991,Fantasy,"Amazon Digital Services,  Inc.",Excellent,4.280000
+1991,"Young Adult","Penguin Group (USA) LLC",Intermediate,3.880000
+1991,Biography/Autobiography/Memoir,"Hachette Book Group",Famous,4.410000
+1991,Biography/Autobiography/Memoir,HarperCollins,Excellent,4.230000
+1991,"Science Fiction","Simon and Schuster Digital Sales Inc",Intermediate,3.770000
+1991,Fantasy,"Amazon Digital Services,  Inc.",Intermediate,4.240000
+1991,Horror,"Amazon Digital Services,  Inc.",Intermediate,3.870000
+1992,"Children's Literature","Amazon Digital Services,  Inc.",Excellent,4.200000
+1992,Fantasy,HarperCollins,Intermediate,3.955000
+1992,"Self-Help & Instruction","Amazon Digital Services,  Inc.",Intermediate,3.890000
+1992,Crime,"Amazon Digital Services,  Inc.",Excellent,4.080000
+1992,Biography/Autobiography/Memoir,"Amazon Digital Services,  Inc.",Famous,4.420000
+1992,"Children's Literature","Hachette Book Group",Famous,4.440000
+1992,Horror,"Amazon Digital Services,  Inc.",Intermediate,3.810000
+1992,Essays/Journalism,"Random House LLC",Intermediate,3.970000
+1992,Horror,"Amazon Digital Services,  Inc.",Famous,3.470000
+1992,"Science Fiction","Simon and Schuster Digital Sales Inc",Intermediate,3.960000
+1992,Fantasy,HarperCollins,Excellent,4.270000
+1992,"Literary Fiction","Amazon Digital Services,  Inc.",Intermediate,3.876667
+1993,Crime,"Amazon Digital Services,  Inc.",Excellent,4.110000
+1993,"Literary Fiction","Penguin Group (USA) LLC",Intermediate,3.830000
+1993,"Literary Fiction","Hachette Book Group",Intermediate,3.900000
+1993,Adventure,"Penguin Group (USA) LLC",Intermediate,3.600000
+1993,"Historical Fiction","Amazon Digital Services,  Inc.",Intermediate,4.380000
+1993,Horror,"Amazon Digital Services,  Inc.",Excellent,4.020000
+1993,"Children's Literature","Amazon Digital Services,  Inc.",Excellent,4.220000
+1993,Essays/Journalism,"Amazon Digital Services,  Inc.",Intermediate,3.980000
+1993,"Literary Fiction","Amazon Digital Services,  Inc.",Intermediate,3.830000
+1993,Fantasy,"Amazon Digital Services,  Inc.",Excellent,4.160000
+1993,Fantasy,"Random House LLC",Excellent,4.130000
+1993,"Literary Fiction","Random House LLC",Intermediate,4.070000
+1994,Crime,HarperCollins,Excellent,4.050000
+1994,Biography/Autobiography/Memoir,"Amazon Digital Services,  Inc.",Excellent,4.310000
+1994,"Historical Fiction","Amazon Digital Services,  Inc.",Intermediate,3.875000
+1994,Fantasy,"Hachette Book Group",Excellent,4.100000
+1994,Horror,"Random House LLC",Intermediate,3.790000
+1994,"Historical Fiction","Amazon Digital Services,  Inc.",Excellent,4.070000
+1994,Crime,"Amazon Digital Services,  Inc.",Intermediate,3.760000
+1994,"Young Adult","Amazon Digital Services,  Inc.",Intermediate,3.950000
+1994,Essays/Journalism,"Amazon Digital Services,  Inc.",Excellent,4.100000
+1994,Romance,"Random House LLC",Intermediate,3.570000
+1994,Thriller,"Random House LLC",Intermediate,3.760000
+1994,Mystery,"Hachette Book Group",Intermediate,3.900000
+1995,Fantasy,"Penguin Group (USA) LLC",Excellent,4.130000
+1995,Thriller,"Hachette Book Group",Excellent,4.010000
+1995,Essays/Journalism,"Amazon Digital Services,  Inc.",Intermediate,3.910000
+1995,Crime,HarperCollins,Excellent,4.130000
+1995,Fantasy,"Amazon Digital Services,  Inc.",Intermediate,4.140000
+1995,"Science Fiction",Macmillan,Excellent,4.190000
+1995,Fantasy,"Random House LLC",Intermediate,4.170000
+1995,"Literary Fiction","Random House LLC",Intermediate,3.940000
+1995,"Science Fiction","Amazon Digital Services,  Inc.",Intermediate,3.720000
+1995,"Literary Fiction","Amazon Digital Services,  Inc.",Intermediate,3.905000
+1995,Thriller,Macmillan,Excellent,4.150000
+1995,Thriller,"Amazon Digital Services,  Inc.",Intermediate,3.910000
+1995,"Children's Literature","Amazon Digital Services,  Inc.",Excellent,4.150000
+1995,Biography/Autobiography/Memoir,HarperCollins,Intermediate,3.810000
+1995,Horror,"Simon and Schuster Digital Sales Inc",Intermediate,3.660000
+1996,"Science Fiction","Amazon Digital Services,  Inc.",Intermediate,3.740000
+1996,Fantasy,"Amazon Digital Services,  Inc.",Excellent,4.210000
+1996,"Literary Fiction","Amazon Digital Services,  Inc.",Intermediate,3.840000
+1996,Fantasy,"Amazon Digital Services,  Inc.",Intermediate,3.990000
+1996,"Children's Literature",Macmillan,Intermediate,3.790000
+1996,"Self-Help & Instruction","Amazon Digital Services,  Inc.",Intermediate,3.770000
+1996,Thriller,"Amazon Digital Services,  Inc.",Intermediate,3.660000
+1996,"Historical Fiction","Amazon Digital Services,  Inc.",Intermediate,4.340000
+1996,Crime,"Amazon Digital Services,  Inc.",Excellent,4.110000
+1996,"Literary Fiction","Hachette Book Group",Intermediate,3.700000
+1996,Classics,"Amazon Digital Services,  Inc.",Intermediate,4.120000
+1996,"Children's Literature","Amazon Digital Services,  Inc.",Intermediate,4.330000
+1996,"Literary Fiction","Simon and Schuster Digital Sales Inc",Intermediate,4.340000
+1996,Thriller,"Hachette Book Group",Intermediate,3.910000
+1996,Horror,"Amazon Digital Services,  Inc.",Intermediate,3.800000
+1996,Biography/Autobiography/Memoir,"Amazon Digital Services,  Inc.",Excellent,4.060000
+1997,Essays/Journalism,"Amazon Digital Services,  Inc.",Intermediate,3.950000
+1997,Essays/Journalism,"Penguin Group (USA) LLC",Intermediate,3.790000
+1997,Action,"Amazon Digital Services,  Inc.",Famous,4.420000
+1997,"Literary Fiction","Random House LLC",Intermediate,3.970000
+1997,Adventure,"Hachette Book Group",Excellent,4.070000
+1997,"Self-Help & Instruction","Penguin Group (USA) LLC",Intermediate,4.110000
+1997,Thriller,"Amazon Digital Services,  Inc.",Intermediate,3.890000
+1997,Fantasy,"Simon and Schuster Digital Sales Inc",Intermediate,4.240000
+1997,"Self-Help & Instruction","Random House LLC",Intermediate,3.950000
+1997,Fantasy,"Amazon Digital Services,  Inc.",Excellent,4.180000
+1997,Thriller,"Random House LLC",Intermediate,4.180000
+1997,Crime,"Hachette Book Group",Excellent,4.140000
+1998,Romance,"Penguin Group (USA) LLC",Intermediate,3.830000
+1998,"Self-Help & Instruction","Random House LLC",Excellent,4.140000
+1998,"Historical Fiction","Amazon Digital Services,  Inc.",Intermediate,3.885000
+1998,Romance,"Amazon Digital Services,  Inc.",Intermediate,3.950000
+1998,"Literary Fiction","Amazon Digital Services,  Inc.",Novice,3.290000
+1998,Horror,"Amazon Digital Services,  Inc.",Intermediate,3.870000
+1998,Fantasy,"Amazon Digital Services,  Inc.",Intermediate,3.900000
+1998,"Literary Fiction","Penguin Group (USA) LLC",Intermediate,3.740000
+1998,"Science Fiction","Amazon Digital Services,  Inc.",Intermediate,4.300000
+1998,Crime,"Amazon Digital Services,  Inc.",Intermediate,3.860000
+1998,Biography/Autobiography/Memoir,"Random House LLC",Excellent,4.120000
+1998,"Young Adult",HarperCollins,Intermediate,3.970000
+1998,Crime,"Random House LLC",Intermediate,3.810000
+1998,Crime,"Amazon Digital Services,  Inc.",Excellent,4.170000
+1998,Thriller,Macmillan,Intermediate,4.000000
+1998,Crime,"Simon and Schuster Digital Sales Inc",Intermediate,3.840000
+1998,Romance,"Simon and Schuster Digital Sales Inc",Intermediate,3.720000
+1998,"Literary Fiction",HarperCollins,Intermediate,3.910000
+1998,"Self-Help & Instruction","Amazon Digital Services,  Inc.",Intermediate,3.520000
+1999,Fantasy,HarperCollins,Excellent,4.350000
+1999,"Young Adult","Amazon Digital Services,  Inc.",Intermediate,3.740000
+1999,"Literary Fiction","Simon and Schuster Digital Sales Inc",Intermediate,4.000000
+1999,"Children's Literature","Simon and Schuster Digital Sales Inc",Intermediate,3.950000
+1999,"Literary Fiction","Amazon Digital Services,  Inc.",Intermediate,3.783333
+1999,Thriller,HarperCollins,Intermediate,3.930000
+1999,Horror,"Amazon Digital Services,  Inc.",Intermediate,3.560000
+1999,Thriller,"Amazon Digital Services,  Inc.",Excellent,4.070000
+1999,Thriller,"Random House LLC",Intermediate,3.830000
+1999,Romance,"Amazon Digital Services,  Inc.",Novice,3.410000
+1999,"Science Fiction","Random House LLC",Excellent,4.250000
+1999,Crime,"Amazon Digital Services,  Inc.",Excellent,4.170000
+1999,Essays/Journalism,"Amazon Digital Services,  Inc.",Excellent,4.060000
+1999,"Historical Fiction","Amazon Digital Services,  Inc.",Intermediate,3.890000
+1999,Romance,"Amazon Digital Services,  Inc.",Intermediate,3.660000
+1999,"Literary Fiction",Macmillan,Intermediate,3.800000
+1999,"Historical Fiction","Amazon Digital Services,  Inc.",Excellent,4.160000
+1999,Fantasy,"Amazon Digital Services,  Inc.",Intermediate,3.850000
+1999,"Literary Fiction","Random House LLC",Intermediate,3.830000
+1999,"Science Fiction","Amazon Digital Services,  Inc.",Intermediate,3.830000
+1999,"Literary Fiction","Penguin Group (USA) LLC",Intermediate,3.970000
+1999,Biography/Autobiography/Memoir,"Amazon Digital Services,  Inc.",Intermediate,4.310000
+1999,"Historical Fiction",HarperCollins,Intermediate,4.200000
+1999,Fantasy,"Simon and Schuster Digital Sales Inc",Intermediate,4.230000
+2000,Thriller,"Penguin Group (USA) LLC",Intermediate,3.710000
+2000,Romance,"Amazon Digital Services,  Inc.",Intermediate,4.100000
+2000,"Historical Fiction","Amazon Digital Services,  Inc.",Intermediate,3.890000
+2000,Fantasy,"Amazon Digital Services,  Inc.",Excellent,4.250000
+2000,"Literary Fiction","Simon and Schuster Digital Sales Inc",Intermediate,3.980000
+2000,Thriller,"Amazon Digital Services,  Inc.",Excellent,4.180000
+2000,"Children's Literature","Amazon Digital Services,  Inc.",Intermediate,3.960000
+2000,"Young Adult","Amazon Digital Services,  Inc.",Intermediate,3.800000
+2000,"Self-Help & Instruction","Amazon Digital Services,  Inc.",Intermediate,3.920000
+2000,Horror,"Amazon Digital Services,  Inc.",Excellent,4.130000
+2000,"Literary Fiction",HarperCollins,Intermediate,3.950000
+2000,"Literary Fiction","Amazon Digital Services,  Inc.",Intermediate,3.730000
+2000,Biography/Autobiography/Memoir,"Random House LLC",Excellent,4.230000
+2000,Mystery,"Amazon Digital Services,  Inc.",Intermediate,3.970000
+2000,Biography/Autobiography/Memoir,"Amazon Digital Services,  Inc.",Excellent,4.050000
+2000,"Children's Literature","Penguin Group (USA) LLC",Intermediate,3.830000
+2000,Fantasy,"Amazon Digital Services,  Inc.",Intermediate,3.920000
+2000,"Self-Help & Instruction",HarperCollins,Intermediate,4.000000
+2000,Fantasy,"Amazon Digital Services,  Inc.",Famous,4.560000
+2001,Fantasy,Macmillan,Excellent,4.040000
+2001,Romance,HarperCollins,Intermediate,4.020000
+2001,Thriller,"Amazon Digital Services,  Inc.",Excellent,4.110000
+2001,Romance,"Amazon Digital Services,  Inc.",Intermediate,3.620000
+2001,Fantasy,"Amazon Digital Services,  Inc.",Intermediate,3.920000
+2001,Romance,"Penguin Group (USA) LLC",Intermediate,3.750000
+2001,"Children's Literature","Penguin Group (USA) LLC",Intermediate,3.940000
+2001,"Children's Literature","Random House LLC",Excellent,4.010000
+2001,Crime,HarperCollins,Excellent,4.150000
+2001,Thriller,"Random House LLC",Excellent,4.100000
+2001,Fantasy,"Penguin Group (USA) LLC",Intermediate,3.990000
+2001,"Self-Help & Instruction","Amazon Digital Services,  Inc.",Intermediate,3.980000
+2001,Romance,"Hachette Book Group",Excellent,4.150000
+2001,Romance,"Random House LLC",Intermediate,4.160000
+2001,Horror,"Amazon Digital Services,  Inc.",Intermediate,3.590000
+2001,Fantasy,"Random House LLC",Intermediate,3.850000
+2001,Crime,"Random House LLC",Excellent,4.190000
+2001,"Literary Fiction","Amazon Digital Services,  Inc.",Intermediate,3.835000
+2001,"Historical Fiction","Amazon Digital Services,  Inc.",Intermediate,4.000000
+2001,"Historical Fiction","Penguin Group (USA) LLC",Excellent,4.260000
+2001,Fantasy,"Penguin Group (USA) LLC",Excellent,4.290000
+2001,"Young Adult","Amazon Digital Services,  Inc.",Intermediate,3.940000
+2001,Essays/Journalism,"Amazon Digital Services,  Inc.",Excellent,4.040000
+2001,Fantasy,"Amazon Digital Services,  Inc.",Excellent,4.180000
+2002,Crime,"Random House LLC",Excellent,4.170000
+2002,Thriller,"Amazon Digital Services,  Inc.",Excellent,4.090000
+2002,Fantasy,"Penguin Group (USA) LLC",Intermediate,4.210000
+2002,Horror,"Hachette Book Group",Intermediate,3.730000
+2002,Thriller,HarperCollins,Excellent,4.010000
+2002,Mystery,HarperCollins,Excellent,4.340000
+2002,Fantasy,"Amazon Digital Services,  Inc.",Excellent,4.300000
+2002,Romance,"Amazon Digital Services,  Inc.",Intermediate,3.803333
+2002,Fantasy,"Random House LLC",Intermediate,4.260000
+2002,Fantasy,"Amazon Digital Services,  Inc.",Intermediate,3.955000
+2002,Thriller,"Amazon Digital Services,  Inc.",Intermediate,3.720000
+2002,Fantasy,"Amazon Digital Services,  Inc.",Famous,4.480000
+2002,"Young Adult","Penguin Group (USA) LLC",Intermediate,3.810000
+2002,Horror,"Amazon Digital Services,  Inc.",Intermediate,3.940000
+2002,"Literary Fiction","Amazon Digital Services,  Inc.",Intermediate,3.900000
+2002,Romance,HarperCollins,Intermediate,4.030000
+2003,"Science Fiction","Amazon Digital Services,  Inc.",Intermediate,4.000000
+2003,Essays/Journalism,"Hachette Book Group",Intermediate,3.600000
+2003,Fantasy,"Penguin Group (USA) LLC",Intermediate,3.790000
+2003,Biography/Autobiography/Memoir,"Amazon Digital Services,  Inc.",Excellent,4.185000
+2003,Essays/Journalism,"Amazon Digital Services,  Inc.",Intermediate,3.877500
+2003,Romance,"Amazon Digital Services,  Inc.",Intermediate,4.060000
+2003,"Self-Help & Instruction","Amazon Digital Services,  Inc.",Intermediate,3.810000
+2003,"Historical Fiction","Simon and Schuster Digital Sales Inc",Intermediate,3.830000
+2003,Essays/Journalism,"Amazon Digital Services,  Inc.",Excellent,4.240000
+2003,Fantasy,HarperCollins,Intermediate,4.030000
+2003,"Young Adult",HarperCollins,Excellent,4.360000
+2003,Essays/Journalism,"Random House LLC",Intermediate,4.050000
+2003,Crime,"Penguin Group (USA) LLC",Excellent,4.160000
+2003,Fantasy,"Amazon Digital Services,  Inc.",Intermediate,3.905000
+2003,"Young Adult","Amazon Digital Services,  Inc.",Excellent,4.060000
+2003,"Children's Literature","Penguin Group (USA) LLC",Intermediate,4.000000
+2003,Fantasy,"Simon and Schuster Digital Sales Inc",Excellent,4.180000
+2003,"Science Fiction","Amazon Digital Services,  Inc.",Excellent,4.080000
+2003,Fantasy,"Amazon Digital Services,  Inc.",Excellent,4.260000
+2003,Thriller,HarperCollins,Intermediate,3.670000
+2003,"Historical Fiction","Amazon Digital Services,  Inc.",Intermediate,3.790000
+2003,"Literary Fiction",HarperCollins,Excellent,4.070000
+2003,Biography/Autobiography/Memoir,"Amazon Digital Services,  Inc.",Intermediate,3.570000
+2003,"Young Adult","Amazon Digital Services,  Inc.",Intermediate,3.990000
+2003,Thriller,"Penguin Group (USA) LLC",Intermediate,4.070000
+2003,"Historical Fiction",HarperCollins,Excellent,4.150000
+2003,"Literary Fiction","Amazon Digital Services,  Inc.",Intermediate,3.975000
+2003,Biography/Autobiography/Memoir,Macmillan,Intermediate,3.960000
+2003,Thriller,"Amazon Digital Services,  Inc.",Intermediate,3.800000
+2004,"Literary Fiction","Amazon Digital Services,  Inc.",Novice,3.265000
+2004,Romance,"Random House LLC",Intermediate,3.950000
+2004,Fantasy,"Penguin Group (USA) LLC",Excellent,4.360000
+2004,Thriller,"Amazon Digital Services,  Inc.",Excellent,4.330000
+2004,Fantasy,"Amazon Digital Services,  Inc.",Intermediate,4.003333
+2004,Crime,"Penguin Group (USA) LLC",Intermediate,3.850000
+2004,"Literary Fiction","Amazon Digital Services,  Inc.",Intermediate,3.680000
+2004,Fantasy,"Random House LLC",Excellent,4.200000
+2004,"Young Adult","Amazon Digital Services,  Inc.",Excellent,4.160000
+2004,Biography/Autobiography/Memoir,"Simon and Schuster Digital Sales Inc",Intermediate,3.790000
+2004,Fantasy,"Amazon Digital Services,  Inc.",Famous,4.420000
+2004,Thriller,"Amazon Digital Services,  Inc.",Intermediate,3.690000
+2004,Biography/Autobiography/Memoir,"Amazon Digital Services,  Inc.",Intermediate,3.910000
+2004,Fantasy,"Amazon Digital Services,  Inc.",Excellent,4.143333
+2004,"Historical Fiction","Amazon Digital Services,  Inc.",Excellent,4.120000
+2004,"Literary Fiction","Random House LLC",Intermediate,3.760000
+2004,Adventure,"Random House LLC",Intermediate,4.180000
+2004,Horror,"Amazon Digital Services,  Inc.",Intermediate,3.860000
+2004,Fantasy,"Hachette Book Group",Intermediate,3.800000
+2004,"Children's Literature","Penguin Group (USA) LLC",Intermediate,4.000000
+2004,Romance,"Amazon Digital Services,  Inc.",Intermediate,3.860000
+2004,Fantasy,"Simon and Schuster Digital Sales Inc",Excellent,4.090000
+2005,Thriller,"Amazon Digital Services,  Inc.",Excellent,4.020000
+2005,Mystery,"Random House LLC",Intermediate,3.680000
+2005,"Science Fiction",Macmillan,Excellent,4.230000
+2005,Fantasy,"Penguin Group (USA) LLC",Intermediate,3.945000
+2005,Horror,"Hachette Book Group",Excellent,4.250000
+2005,Essays/Journalism,"Amazon Digital Services,  Inc.",Excellent,4.010000
+2005,Fantasy,"Amazon Digital Services,  Inc.",Intermediate,3.903333
+2005,Biography/Autobiography/Memoir,"Amazon Digital Services,  Inc.",Intermediate,3.860000
+2005,Fantasy,"Amazon Digital Services,  Inc.",Excellent,4.105000
+2005,"Young Adult","Simon and Schuster Digital Sales Inc",Excellent,4.010000
+2005,"Historical Fiction","Penguin Group (USA) LLC",Intermediate,3.880000
+2005,"Historical Fiction","Random House LLC",Intermediate,4.060000
+2005,"Self-Help & Instruction","Amazon Digital Services,  Inc.",Intermediate,4.020000
+2005,Romance,"Amazon Digital Services,  Inc.",Novice,3.390000
+2005,Biography/Autobiography/Memoir,"Amazon Digital Services,  Inc.",Excellent,4.300000
+2005,"Literary Fiction","Amazon Digital Services,  Inc.",Intermediate,3.735000
+2005,Essays/Journalism,"Hachette Book Group",Intermediate,3.660000
+2005,Mystery,"Penguin Group (USA) LLC",Excellent,4.150000
+2005,"Literary Fiction","Hachette Book Group",Novice,3.410000
+2005,Horror,"Simon and Schuster Digital Sales Inc",Intermediate,3.590000
+2005,"Science Fiction","Amazon Digital Services,  Inc.",Intermediate,4.080000
+2005,Fantasy,"Simon and Schuster Digital Sales Inc",Excellent,4.170000
+2005,Thriller,"Simon and Schuster Digital Sales Inc",Excellent,4.160000
+2005,Biography/Autobiography/Memoir,"Random House LLC",Intermediate,3.670000
+2005,Fantasy,"Penguin Group (USA) LLC",Famous,4.430000
+2005,Fantasy,"Amazon Digital Services,  Inc.",Famous,4.430000
+2005,Fantasy,Macmillan,Excellent,4.280000
+2005,Thriller,"Amazon Digital Services,  Inc.",Intermediate,3.770000
+2006,"Literary Fiction","Amazon Digital Services,  Inc.",Intermediate,4.090000
+2006,Biography/Autobiography/Memoir,"Hachette Book Group",Excellent,4.120000
+2006,"Literary Fiction",HarperCollins,Intermediate,3.510000
+2006,"Young Adult",HarperCollins,Intermediate,4.140000
+2006,Biography/Autobiography/Memoir,"Penguin Group (USA) LLC",Excellent,4.160000
+2006,Fantasy,"Random House LLC",Excellent,4.110000
+2006,"Self-Help & Instruction","Amazon Digital Services,  Inc.",Intermediate,3.930000
+2006,Biography/Autobiography/Memoir,"Amazon Digital Services,  Inc.",Intermediate,3.620000
+2006,Romance,Macmillan,Intermediate,3.710000
+2006,Thriller,"Amazon Digital Services,  Inc.",Intermediate,3.900000
+2006,Fantasy,"Simon and Schuster Digital Sales Inc",Famous,4.430000
+2006,Fantasy,"Simon and Schuster Digital Sales Inc",Intermediate,4.160000
+2006,Romance,"Random House LLC",Intermediate,3.730000
+2006,"Young Adult","Hachette Book Group",Intermediate,3.820000
+2006,"Literary Fiction","Hachette Book Group",Intermediate,3.730000
+2006,Adventure,"Hachette Book Group",Excellent,4.160000
+2006,"Historical Fiction","Hachette Book Group",Intermediate,3.840000
+2006,Adventure,"Amazon Digital Services,  Inc.",Excellent,4.320000
+2006,"Young Adult","Amazon Digital Services,  Inc.",Intermediate,3.590000
+2006,Fantasy,"Amazon Digital Services,  Inc.",Famous,4.400000
+2006,Fantasy,HarperCollins,Excellent,4.240000
+2006,"Science Fiction","Amazon Digital Services,  Inc.",Intermediate,3.830000
+2006,Horror,HarperCollins,Intermediate,3.640000
+2006,Fantasy,"Amazon Digital Services,  Inc.",Intermediate,3.680000
+2006,Fantasy,"Penguin Group (USA) LLC",Excellent,4.140000
+2006,Biography/Autobiography/Memoir,"Amazon Digital Services,  Inc.",Excellent,4.270000
+2006,Biography/Autobiography/Memoir,HarperCollins,Excellent,4.160000
+2006,Fantasy,"Amazon Digital Services,  Inc.",Excellent,4.130000
+2006,"Young Adult","Amazon Digital Services,  Inc.",Excellent,4.085000
+2006,Romance,"Random House LLC",Excellent,4.350000
+2006,"Historical Fiction","Amazon Digital Services,  Inc.",Intermediate,3.930000
+2006,Horror,"Amazon Digital Services,  Inc.",Novice,3.480000
+2007,"Historical Fiction","Hachette Book Group",Intermediate,3.730000
+2007,Adventure,"Amazon Digital Services,  Inc.",Excellent,4.230000
+2007,Fantasy,"Amazon Digital Services,  Inc.",Excellent,4.180000
+2007,"Children's Literature","Amazon Digital Services,  Inc.",Intermediate,4.230000
+2007,Romance,"Amazon Digital Services,  Inc.",Excellent,4.315000
+2007,"Children's Literature","Amazon Digital Services,  Inc.",Excellent,4.140000
+2007,Essays/Journalism,"Amazon Digital Services,  Inc.",Intermediate,3.920000
+2007,Fantasy,"Random House LLC",Intermediate,4.200000
+2007,Fantasy,"Random House LLC",Excellent,4.270000
+2007,Fantasy,"Amazon Digital Services,  Inc.",Intermediate,3.853333
+2007,Fantasy,"Penguin Group (USA) LLC",Excellent,4.370000
+2007,Biography/Autobiography/Memoir,"Amazon Digital Services,  Inc.",Intermediate,4.005000
+2007,Fantasy,"Amazon Digital Services,  Inc.",Famous,4.410000
+2007,Romance,"Amazon Digital Services,  Inc.",Intermediate,3.880000
+2007,"Science Fiction",Macmillan,Intermediate,4.180000
+2007,Horror,"Amazon Digital Services,  Inc.",Intermediate,3.820000
+2007,"Historical Fiction","Random House LLC",Intermediate,4.230000
+2007,Biography/Autobiography/Memoir,"Hachette Book Group",Intermediate,3.850000
+2007,"Young Adult","Random House LLC",Intermediate,4.110000
+2007,Fantasy,"Penguin Group (USA) LLC",Intermediate,3.840000
+2007,Biography/Autobiography/Memoir,"Amazon Digital Services,  Inc.",Excellent,4.055000
+2007,Essays/Journalism,"Penguin Group (USA) LLC",Intermediate,3.910000
+2007,"Self-Help & Instruction","Amazon Digital Services,  Inc.",Intermediate,3.840000
+2007,Essays/Journalism,"Amazon Digital Services,  Inc.",Excellent,4.085000
+2007,Fantasy,"Simon and Schuster Digital Sales Inc",Intermediate,3.690000
+2008,Essays/Journalism,"Hachette Book Group",Intermediate,4.040000
+2008,"Science Fiction","Amazon Digital Services,  Inc.",Intermediate,3.960000
+2008,Fantasy,Macmillan,Excellent,4.260000
+2008,Romance,"Random House LLC",Novice,3.320000
+2008,"Historical Fiction","Penguin Group (USA) LLC",Intermediate,4.025000
+2008,Fantasy,"Random House LLC",Famous,4.430000
+2008,"Literary Fiction","Amazon Digital Services,  Inc.",Intermediate,3.793333
+2008,Horror,Macmillan,Intermediate,3.930000
+2008,"Historical Fiction",HarperCollins,Excellent,4.280000
+2008,"Historical Fiction","Amazon Digital Services,  Inc.",Intermediate,4.120000
+2008,Romance,"Simon and Schuster Digital Sales Inc",Intermediate,3.805000
+2008,Horror,"Amazon Digital Services,  Inc.",Excellent,4.030000
+2008,"Children's Literature","Amazon Digital Services,  Inc.",Excellent,4.100000
+2008,Romance,"Amazon Digital Services,  Inc.",Intermediate,4.040000
+2008,Fantasy,"Random House LLC",Excellent,4.210000
+2008,Romance,"Penguin Group (USA) LLC",Intermediate,3.840000
+2008,"Young Adult","Amazon Digital Services,  Inc.",Excellent,4.135000
+2008,Fantasy,"Amazon Digital Services,  Inc.",Famous,4.460000
+2008,Fantasy,"Amazon Digital Services,  Inc.",Excellent,4.196667
+2008,Essays/Journalism,Macmillan,Intermediate,4.150000
+2008,"Literary Fiction","Amazon Digital Services,  Inc.",Excellent,4.110000
+2008,Biography/Autobiography/Memoir,"Amazon Digital Services,  Inc.",Excellent,4.080000
+2008,Thriller,"Amazon Digital Services,  Inc.",Intermediate,3.850000
+2008,Mystery,"Penguin Group (USA) LLC",Excellent,4.050000
+2008,Fantasy,"Amazon Digital Services,  Inc.",Intermediate,3.955000
+2008,"Literary Fiction","Random House LLC",Intermediate,3.340000
+2008,Romance,"Random House LLC",Excellent,4.120000
+2008,Fantasy,HarperCollins,Intermediate,3.910000
+2009,Fantasy,"Penguin Group (USA) LLC",Excellent,4.120000
+2009,Essays/Journalism,"Simon and Schuster Digital Sales Inc",Excellent,4.260000
+2009,Essays/Journalism,"Penguin Group (USA) LLC",Intermediate,3.950000
+2009,"Self-Help & Instruction","Amazon Digital Services,  Inc.",Intermediate,3.570000
+2009,Fantasy,"Amazon Digital Services,  Inc.",Intermediate,3.510000
+2009,Romance,"Amazon Digital Services,  Inc.",Intermediate,3.690000
+2009,Fantasy,"Amazon Digital Services,  Inc.",Excellent,4.340000
+2009,Biography/Autobiography/Memoir,"Amazon Digital Services,  Inc.",Intermediate,4.270000
+2009,Horror,"Amazon Digital Services,  Inc.",Famous,4.430000
+2009,Essays/Journalism,HarperCollins,Excellent,4.200000
+2009,"Historical Fiction","Penguin Group (USA) LLC",Intermediate,3.860000
+2009,"Young Adult","Amazon Digital Services,  Inc.",Intermediate,3.980000
+2009,Horror,"Amazon Digital Services,  Inc.",Novice,3.280000
+2009,Romance,"Penguin Group (USA) LLC",Excellent,4.120000
+2009,Horror,"Penguin Group (USA) LLC",Famous,4.430000
+2009,Fantasy,"Random House LLC",Intermediate,3.970000
+2009,"Literary Fiction",Macmillan,Intermediate,3.810000
+2009,Biography/Autobiography/Memoir,"Hachette Book Group",Excellent,4.160000
+2009,Romance,HarperCollins,Intermediate,3.960000
+2009,Romance,"Random House LLC",Excellent,4.100000
+2009,"Children's Literature","Amazon Digital Services,  Inc.",Excellent,4.125000
+2009,"Historical Fiction","Simon and Schuster Digital Sales Inc",Famous,4.420000
+2009,"Literary Fiction","Amazon Digital Services,  Inc.",Intermediate,3.832500
+2009,"Historical Fiction","Amazon Digital Services,  Inc.",Intermediate,3.900000
+2009,Horror,"Amazon Digital Services,  Inc.",Intermediate,3.770000
+2009,"Children's Literature",HarperCollins,Excellent,4.190000
+2009,Thriller,"Amazon Digital Services,  Inc.",Novice,3.220000
+2009,Romance,"Random House LLC",Intermediate,3.820000
+2009,Fantasy,Macmillan,Excellent,4.380000
+2009,"Literary Fiction",HarperCollins,Novice,3.230000
+2009,Horror,"Hachette Book Group",Intermediate,3.920000
+2009,"Science Fiction","Simon and Schuster Digital Sales Inc",Excellent,4.050000
+2009,Essays/Journalism,"Random House LLC",Intermediate,3.820000
+2009,"Literary Fiction","Amazon Digital Services,  Inc.",Excellent,4.130000
+2009,Classics,"Simon and Schuster Digital Sales Inc",Excellent,4.160000
+2009,Romance,"Penguin Group (USA) LLC",Intermediate,4.080000
+2009,"Young Adult","Penguin Group (USA) LLC",Excellent,4.340000
+2009,Fantasy,Macmillan,Novice,3.470000
+2009,Mystery,"Penguin Group (USA) LLC",Intermediate,3.810000
+2010,Horror,"Random House LLC",Excellent,4.030000
+2010,"Young Adult","Amazon Digital Services,  Inc.",Intermediate,3.905000
+2010,"Literary Fiction","Amazon Digital Services,  Inc.",Intermediate,3.920000
+2010,Thriller,"Amazon Digital Services,  Inc.",Excellent,4.210000
+2010,Fantasy,"Amazon Digital Services,  Inc.",Famous,4.472500
+2010,Biography/Autobiography/Memoir,"Hachette Book Group",Intermediate,3.980000
+2010,"Children's Literature","Amazon Digital Services,  Inc.",Excellent,4.160000
+2010,Fantasy,"Amazon Digital Services,  Inc.",Excellent,4.156667
+2010,Horror,"Penguin Group (USA) LLC",Excellent,4.210000
+2010,Action,"Amazon Digital Services,  Inc.",Famous,4.420000
+2010,Adventure,"Amazon Digital Services,  Inc.",Excellent,4.350000
+2010,Romance,"Amazon Digital Services,  Inc.",Excellent,4.155000
+2010,Horror,"Amazon Digital Services,  Inc.",Intermediate,3.930000
+2010,Fantasy,"Amazon Digital Services,  Inc.",Intermediate,3.920000
+2010,"Literary Fiction","Random House LLC",Intermediate,3.730000
+2010,"Literary Fiction","Simon and Schuster Digital Sales Inc",Intermediate,3.800000
+2010,"Literary Fiction",Macmillan,Intermediate,3.640000
+2010,"Self-Help & Instruction","Simon and Schuster Digital Sales Inc",Intermediate,3.930000
+2010,Fantasy,HarperCollins,Intermediate,3.840000
+2010,Fantasy,Macmillan,Intermediate,3.920000
+2010,Essays/Journalism,"Amazon Digital Services,  Inc.",Intermediate,3.860000
+2010,Thriller,"Random House LLC",Intermediate,3.910000
+2010,"Literary Fiction",HarperCollins,Intermediate,4.010000
+2010,Biography/Autobiography/Memoir,"Amazon Digital Services,  Inc.",Intermediate,3.755000
+2010,"Young Adult","Amazon Digital Services,  Inc.",Excellent,4.370000
+2010,Romance,"Amazon Digital Services,  Inc.",Intermediate,3.910000
+2010,"Young Adult",Macmillan,Intermediate,3.890000
+2010,Biography/Autobiography/Memoir,"Random House LLC",Intermediate,3.990000
+2011,Fantasy,"Penguin Group (USA) LLC",Intermediate,4.190000
+2011,"Historical Fiction","Amazon Digital Services,  Inc.",Excellent,4.360000
+2011,"Self-Help & Instruction",HarperCollins,Intermediate,4.030000
+2011,"Self-Help & Instruction","Amazon Digital Services,  Inc.",Intermediate,3.925000
+2011,Romance,"Amazon Digital Services,  Inc.",Excellent,4.370000
+2011,"Self-Help & Instruction","Amazon Digital Services,  Inc.",Excellent,4.040000
+2011,"Literary Fiction","Amazon Digital Services,  Inc.",Intermediate,3.902500
+2011,"Science Fiction",HarperCollins,Excellent,4.200000
+2011,"Science Fiction",Macmillan,Excellent,4.170000
+2011,Romance,"Penguin Group (USA) LLC",Intermediate,3.910000
+2011,"Literary Fiction","Random House LLC",Novice,3.420000
+2011,"Historical Fiction","Penguin Group (USA) LLC",Intermediate,3.990000
+2011,Essays/Journalism,Macmillan,Intermediate,3.910000
+2011,"Young Adult",Macmillan,Excellent,4.090000
+2011,"Literary Fiction","Random House LLC",Intermediate,3.880000
+2011,Essays/Journalism,"Random House LLC",Intermediate,3.900000
+2011,Biography/Autobiography/Memoir,"Amazon Digital Services,  Inc.",Intermediate,3.843333
+2011,Fantasy,"Random House LLC",Excellent,4.360000
+2011,Romance,"Penguin Group (USA) LLC",Excellent,4.020000
+2011,Fantasy,"Amazon Digital Services,  Inc.",Intermediate,3.995000
+2011,"Science Fiction","Amazon Digital Services,  Inc.",Excellent,4.010000
+2011,Fantasy,"Hachette Book Group",Excellent,4.020000
+2011,Biography/Autobiography/Memoir,"Hachette Book Group",Intermediate,3.720000
+2011,Biography/Autobiography/Memoir,"Amazon Digital Services,  Inc.",Excellent,4.020000
+2011,Fantasy,"Hachette Book Group",Intermediate,3.950000
+2011,Fantasy,"Random House LLC",Intermediate,4.080000
+2011,"Historical Fiction","Amazon Digital Services,  Inc.",Intermediate,3.810000
+2011,"Young Adult","Hachette Book Group",Excellent,4.060000
+2011,Fantasy,"Amazon Digital Services,  Inc.",Excellent,4.207500
+2011,"Science Fiction","Amazon Digital Services,  Inc.",Intermediate,3.780000
+2011,Thriller,"Amazon Digital Services,  Inc.",Intermediate,3.770000
+2011,"Children's Literature","Amazon Digital Services,  Inc.",Excellent,4.260000
+2011,"Young Adult","Amazon Digital Services,  Inc.",Intermediate,3.830000
+2011,"Literary Fiction","Amazon Digital Services,  Inc.",Novice,3.370000
+2011,"Literary Fiction","Amazon Digital Services,  Inc.",Excellent,4.170000
+2011,Fantasy,Macmillan,Intermediate,4.220000
+2011,Romance,"Amazon Digital Services,  Inc.",Intermediate,3.906000
+2012,Fantasy,"Amazon Digital Services,  Inc.",Famous,4.500000
+2012,Romance,HarperCollins,Intermediate,4.055000
+2012,"Young Adult","Random House LLC",Excellent,4.330000
+2012,"Children's Literature","Amazon Digital Services,  Inc.",Excellent,4.240000
+2012,Biography/Autobiography/Memoir,Macmillan,Intermediate,3.970000
+2012,Romance,"Random House LLC",Intermediate,4.025000
+2012,"Young Adult","Amazon Digital Services,  Inc.",Excellent,4.216000
+2012,Romance,"Simon and Schuster Digital Sales Inc",Excellent,4.140000
+2012,Romance,"Amazon Digital Services,  Inc.",Intermediate,4.015000
+2012,"Literary Fiction","Random House LLC",Intermediate,3.670000
+2012,"Young Adult","Random House LLC",Intermediate,3.580000
+2012,"Literary Fiction","Amazon Digital Services,  Inc.",Intermediate,3.750000
+2012,Mystery,"Amazon Digital Services,  Inc.",Novice,3.210000
+2012,"Young Adult","Penguin Group (USA) LLC",Excellent,4.290000
+2012,Fantasy,"Amazon Digital Services,  Inc.",Excellent,4.120000
+2012,"Historical Fiction","Amazon Digital Services,  Inc.",Intermediate,3.810000
+2012,"Literary Fiction","Hachette Book Group",Intermediate,3.890000
+2012,Crime,"Amazon Digital Services,  Inc.",Intermediate,3.910000
+2012,"Literary Fiction",Macmillan,Excellent,4.060000
+2012,"Historical Fiction",HarperCollins,Excellent,4.210000
+2012,"Young Adult","Amazon Digital Services,  Inc.",Intermediate,3.775000
+2012,"Young Adult","Amazon Digital Services,  Inc.",Famous,4.400000
+2012,Biography/Autobiography/Memoir,"Hachette Book Group",Intermediate,4.000000
+2012,Biography/Autobiography/Memoir,"Amazon Digital Services,  Inc.",Intermediate,3.900000
+2012,Fantasy,"Amazon Digital Services,  Inc.",Intermediate,3.857500
+2012,Romance,"Amazon Digital Services,  Inc.",Excellent,4.175714
+2012,Romance,"Penguin Group (USA) LLC",Excellent,4.210000
+2012,Thriller,"Amazon Digital Services,  Inc.",Intermediate,3.835000
+2012,"Literary Fiction","Simon and Schuster Digital Sales Inc",Intermediate,3.720000
+2012,Essays/Journalism,"Random House LLC",Intermediate,3.970000
+2012,"Science Fiction","Penguin Group (USA) LLC",Intermediate,4.240000
+2012,Romance,"Random House LLC",Excellent,4.030000
+2012,"Science Fiction","Hachette Book Group",Intermediate,3.750000
+2012,"Historical Fiction","Random House LLC",Intermediate,3.950000
+2012,"Science Fiction","Random House LLC",Intermediate,3.665000
+2012,"Young Adult","Hachette Book Group",Excellent,4.220000
+2013,Thriller,"Penguin Group (USA) LLC",Intermediate,3.980000
+2013,Thriller,"Amazon Digital Services,  Inc.",Excellent,4.230000
+2013,Romance,"Amazon Digital Services,  Inc.",Intermediate,4.190000
+2013,Fantasy,"Amazon Digital Services,  Inc.",Excellent,4.100000
+2013,"Literary Fiction","Amazon Digital Services,  Inc.",Intermediate,3.974000
+2013,"Young Adult","Amazon Digital Services,  Inc.",Intermediate,4.015000
+2013,"Science Fiction","Penguin Group (USA) LLC",Excellent,4.160000
+2013,"Young Adult","Amazon Digital Services,  Inc.",Excellent,4.280000
+2013,Thriller,"Amazon Digital Services,  Inc.",Novice,3.300000
+2013,Horror,"Amazon Digital Services,  Inc.",Intermediate,4.000000
+2013,Romance,"Amazon Digital Services,  Inc.",Excellent,4.170000
+2013,"Self-Help & Instruction","Amazon Digital Services,  Inc.",Intermediate,3.940000
+2013,"Literary Fiction",HarperCollins,Intermediate,3.540000
+2013,Fantasy,"Amazon Digital Services,  Inc.",Famous,4.515000
+2013,Biography/Autobiography/Memoir,"Hachette Book Group",Intermediate,4.320000
+2013,"Self-Help & Instruction","Penguin Group (USA) LLC",Intermediate,4.170000
+2013,"Science Fiction","Penguin Group (USA) LLC",Novice,3.460000
+2013,Mystery,"Amazon Digital Services,  Inc.",Intermediate,3.820000
+2013,"Historical Fiction","Amazon Digital Services,  Inc.",Intermediate,3.740000
+2013,Fantasy,"Amazon Digital Services,  Inc.",Intermediate,4.300000
+2013,Essays/Journalism,Macmillan,Intermediate,3.800000
+2013,"Young Adult","Simon and Schuster Digital Sales Inc",Excellent,4.370000
+2014,"Literary Fiction","Amazon Digital Services,  Inc.",Intermediate,3.785000
+2014,"Historical Fiction",HarperCollins,Intermediate,3.580000
+2014,Fantasy,"Amazon Digital Services,  Inc.",Famous,4.445000
+2014,Thriller,Macmillan,Intermediate,3.920000
+2014,Biography/Autobiography/Memoir,"Random House LLC",Novice,3.330000
+2014,Fantasy,HarperCollins,Famous,4.770000
+2014,Fantasy,Macmillan,Famous,4.460000
+2014,"Literary Fiction","Random House LLC",Intermediate,3.980000
+2014,"Science Fiction","Simon and Schuster Digital Sales Inc",Intermediate,3.930000
+2014,Mystery,"Amazon Digital Services,  Inc.",Intermediate,3.985000
+2014,Romance,Macmillan,Intermediate,3.560000
+2014,Romance,"Amazon Digital Services,  Inc.",Intermediate,3.550000
+2014,"Young Adult","Simon and Schuster Digital Sales Inc",Excellent,4.140000
+2014,Horror,"Amazon Digital Services,  Inc.",Intermediate,3.750000
+2014,Thriller,"Random House LLC",Intermediate,3.810000
+2014,Fantasy,"Amazon Digital Services,  Inc.",Excellent,4.150000
+2014,"Young Adult","Amazon Digital Services,  Inc.",Intermediate,3.940000
+2014,"Science Fiction","Random House LLC",Intermediate,3.810000
+2014,"Young Adult","Amazon Digital Services,  Inc.",Excellent,4.105000
+2014,Fantasy,"Penguin Group (USA) LLC",Excellent,4.070000
+2014,"Self-Help & Instruction","Amazon Digital Services,  Inc.",Famous,4.400000
+2014,"Science Fiction","Amazon Digital Services,  Inc.",Excellent,4.260000
+2014,Essays/Journalism,"Penguin Group (USA) LLC",Excellent,4.170000
+2014,Fantasy,"Hachette Book Group",Famous,4.530000
+2014,Romance,"Random House LLC",Excellent,4.315000
+2014,Fantasy,"Amazon Digital Services,  Inc.",Intermediate,3.920000
+2014,Thriller,"Amazon Digital Services,  Inc.",Intermediate,3.520000
+2014,Romance,"Hachette Book Group",Intermediate,3.940000
+2015,Thriller,"Amazon Digital Services,  Inc.",Intermediate,3.800000
+2015,"Science Fiction","Amazon Digital Services,  Inc.",Famous,4.460000
+2015,Romance,"Amazon Digital Services,  Inc.",Excellent,4.250000
+2015,"Historical Fiction","Penguin Group (USA) LLC",Excellent,4.070000
+2015,Fantasy,HarperCollins,Excellent,4.320000
+2015,"Literary Fiction",HarperCollins,Intermediate,3.560000
+2015,"Young Adult","Amazon Digital Services,  Inc.",Excellent,4.110000
+2015,"Literary Fiction","Amazon Digital Services,  Inc.",Excellent,4.270000
+2015,Romance,"Hachette Book Group",Intermediate,3.760000
+2015,Thriller,"Amazon Digital Services,  Inc.",Excellent,4.030000
+2015,Biography/Autobiography/Memoir,"Amazon Digital Services,  Inc.",Famous,4.400000
+2015,Mystery,"Penguin Group (USA) LLC",Excellent,4.210000
+2015,"Young Adult",HarperCollins,Excellent,4.190000
+2015,Biography/Autobiography/Memoir,"Random House LLC",Intermediate,3.890000
+2015,Fantasy,"Amazon Digital Services,  Inc.",Excellent,4.290000
+2015,Romance,"Amazon Digital Services,  Inc.",Intermediate,3.775000
+2015,"Literary Fiction","Penguin Group (USA) LLC",Novice,3.400000
+2015,Thriller,"Random House LLC",Intermediate,3.730000
+2015,Fantasy,"Amazon Digital Services,  Inc.",Intermediate,4.080000
+2015,"Young Adult","Amazon Digital Services,  Inc.",Intermediate,3.850000
+2015,"Young Adult","Amazon Digital Services,  Inc.",Famous,4.490000
+2015,Fantasy,Macmillan,Famous,4.600000
+2015,Thriller,"Simon and Schuster Digital Sales Inc",Novice,3.480000
+2015,"Literary Fiction","Amazon Digital Services,  Inc.",Novice,3.310000
+2016,Biography/Autobiography/Memoir,"Amazon Digital Services,  Inc.",Intermediate,3.990000
+2016,Biography/Autobiography/Memoir,"Amazon Digital Services,  Inc.",Excellent,4.320000
+2016,"Literary Fiction","Amazon Digital Services,  Inc.",Novice,3.450000
+2016,Thriller,"Random House LLC",Novice,3.490000
+2016,"Literary Fiction","Penguin Group (USA) LLC",Excellent,4.350000
+2016,"Literary Fiction","Amazon Digital Services,  Inc.",Intermediate,3.550000
+2016,Thriller,"Penguin Group (USA) LLC",Intermediate,3.930000
+2016,Romance,"Penguin Group (USA) LLC",Famous,4.440000
+2016,Thriller,"Amazon Digital Services,  Inc.",Intermediate,3.670000
+2016,Fantasy,"Simon and Schuster Digital Sales Inc",Famous,4.720000
+2016,"Historical Fiction","Amazon Digital Services,  Inc.",Excellent,4.040000

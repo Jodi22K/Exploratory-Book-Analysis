@@ -1,0 +1,533 @@
+Genre,Publishing_Year,total_gross_sales,average_rating
+Action,1986,1949.31,4.250000
+Action,1987,12437.50,4.230000
+Action,1988,455.40,4.360000
+Action,1997,458.85,4.420000
+Action,2010,118.80,4.420000
+Adventure,1812,355.81,3.920000
+Adventure,1872,4434.45,3.900000
+Adventure,1905,648.09,4.060000
+Adventure,1906,1703.17,3.940000
+Adventure,1978,708.63,4.160000
+Adventure,1993,594.51,3.600000
+Adventure,1997,634.41,4.070000
+Adventure,2004,425.70,4.180000
+Adventure,2006,1074.35,4.240000
+Adventure,2007,349.83,4.230000
+Adventure,2010,328.90,4.350000
+Biography/Autobiography/Memoir,1853,543.91,4.150000
+Biography/Autobiography/Memoir,1902,347.49,4.070000
+Biography/Autobiography/Memoir,1958,438.90,4.090000
+Biography/Autobiography/Memoir,1964,813.37,4.040000
+Biography/Autobiography/Memoir,1965,2025.94,4.290000
+Biography/Autobiography/Memoir,1984,948.10,4.290000
+Biography/Autobiography/Memoir,1985,1182.63,4.040000
+Biography/Autobiography/Memoir,1986,111.87,4.530000
+Biography/Autobiography/Memoir,1987,1886.22,4.610000
+Biography/Autobiography/Memoir,1991,1018.74,4.320000
+Biography/Autobiography/Memoir,1992,343.85,4.420000
+Biography/Autobiography/Memoir,1994,316.94,4.310000
+Biography/Autobiography/Memoir,1995,1641.75,3.810000
+Biography/Autobiography/Memoir,1996,151.47,4.060000
+Biography/Autobiography/Memoir,1998,1544.62,4.120000
+Biography/Autobiography/Memoir,1999,1943.50,4.310000
+Biography/Autobiography/Memoir,2000,1925.92,4.140000
+Biography/Autobiography/Memoir,2003,3204.15,3.975000
+Biography/Autobiography/Memoir,2004,2545.76,3.850000
+Biography/Autobiography/Memoir,2005,3235.94,3.943333
+Biography/Autobiography/Memoir,2006,4876.90,4.108571
+Biography/Autobiography/Memoir,2007,10359.39,3.994000
+Biography/Autobiography/Memoir,2008,408.74,4.080000
+Biography/Autobiography/Memoir,2009,3863.59,4.215000
+Biography/Autobiography/Memoir,2010,7332.99,3.894000
+Biography/Autobiography/Memoir,2011,2731.62,3.854000
+Biography/Autobiography/Memoir,2012,5163.23,3.956667
+Biography/Autobiography/Memoir,2013,8482.43,4.320000
+Biography/Autobiography/Memoir,2014,1245.92,3.330000
+Biography/Autobiography/Memoir,2015,2121.65,4.145000
+Biography/Autobiography/Memoir,2016,1472.31,4.155000
+"Children's Literature",1812,1811.37,4.310000
+"Children's Literature",1823,466.83,4.360000
+"Children's Literature",1835,708.58,4.280000
+"Children's Literature",1880,3730.65,3.970000
+"Children's Literature",1894,113.85,3.940000
+"Children's Literature",1901,9890.85,4.170000
+"Children's Literature",1905,23792.34,4.200000
+"Children's Literature",1908,11837.41,4.200000
+"Children's Literature",1909,117.81,4.210000
+"Children's Literature",1922,21797.82,4.290000
+"Children's Literature",1928,214.92,4.360000
+"Children's Literature",1930,593.81,4.150000
+"Children's Literature",1932,697.95,4.160000
+"Children's Literature",1934,349.83,4.050000
+"Children's Literature",1939,712.80,4.220000
+"Children's Literature",1941,873.75,4.170000
+"Children's Literature",1942,1506.84,4.090000
+"Children's Literature",1945,1330.37,3.995000
+"Children's Literature",1947,470.25,3.410000
+"Children's Literature",1948,6234.67,4.280000
+"Children's Literature",1953,5195.91,4.330000
+"Children's Literature",1954,112.86,4.160000
+"Children's Literature",1955,1666.62,4.105000
+"Children's Literature",1960,11302.76,4.140000
+"Children's Literature",1961,1160.85,4.080000
+"Children's Literature",1962,1170.00,4.130000
+"Children's Literature",1967,3460.61,4.170000
+"Children's Literature",1970,322.92,4.180000
+"Children's Literature",1971,2155.74,4.290000
+"Children's Literature",1972,2930.20,4.155000
+"Children's Literature",1977,1158.84,4.260000
+"Children's Literature",1978,2527.23,4.145000
+"Children's Literature",1980,1306.14,3.915000
+"Children's Literature",1985,1035.54,4.290000
+"Children's Literature",1986,1641.66,4.225000
+"Children's Literature",1988,904.85,4.505000
+"Children's Literature",1989,2116.95,4.250000
+"Children's Literature",1992,867.10,4.320000
+"Children's Literature",1993,116.82,4.220000
+"Children's Literature",1995,903.19,4.150000
+"Children's Literature",1996,1079.11,4.060000
+"Children's Literature",1999,1202.59,3.950000
+"Children's Literature",2000,3196.54,3.927500
+"Children's Literature",2001,937.66,3.975000
+"Children's Literature",2003,988.90,4.000000
+"Children's Literature",2004,1153.35,4.000000
+"Children's Literature",2007,1801.46,4.185000
+"Children's Literature",2008,478.40,4.100000
+"Children's Literature",2009,3595.62,4.146667
+"Children's Literature",2010,111.87,4.160000
+"Children's Literature",2011,113.85,4.260000
+"Children's Literature",2012,475.41,4.240000
+Classics,-560,693.61,4.050000
+Classics,-441,106.92,3.600000
+Classics,-430,2460.92,3.670000
+Classics,-380,387.09,3.900000
+Classics,1308,124.74,4.060000
+Classics,1320,354.22,3.990000
+Classics,1593,2726.10,3.810000
+Classics,1596,427.50,3.780000
+Classics,1599,392.04,3.650000
+Classics,1601,1527.45,3.970000
+Classics,1603,2014.95,3.890000
+Classics,1605,13413.08,3.850000
+Classics,1623,1025.57,3.800000
+Classics,1667,868.26,3.800000
+Classics,1678,856.14,3.980000
+Classics,1759,8982.00,3.760000
+Classics,1831,3013.71,3.970000
+Classics,1847,149.49,3.760000
+Classics,1849,18394.85,3.960000
+Classics,1853,988.90,4.000000
+Classics,1854,562.59,4.130000
+Classics,1856,9308.67,3.640000
+Classics,1868,1438.40,4.180000
+Classics,1871,186.12,3.930000
+Classics,1874,1997.73,3.920000
+Classics,1879,1588.94,3.690000
+Classics,1881,966.79,3.840000
+Classics,1905,951.23,4.070000
+Classics,1909,3531.15,3.970000
+Classics,1916,565.11,3.600000
+Classics,1920,1188.76,3.930000
+Classics,1927,1144.04,3.760000
+Classics,1937,516.66,4.190000
+Classics,1949,5433.18,3.490000
+Classics,1952,1621.97,3.810000
+Classics,1962,646.92,3.940000
+Classics,1966,1334.54,4.060000
+Classics,1975,34160.00,3.420000
+Classics,1990,114.84,3.810000
+Classics,1996,2639.34,4.120000
+Classics,2009,761.10,4.160000
+Crime,1891,352.82,4.220000
+Crime,1894,1230.90,4.320000
+Crime,1939,126.72,4.040000
+Crime,1974,176.22,4.000000
+Crime,1982,616.90,3.820000
+Crime,1986,553.15,4.100000
+Crime,1987,1088.91,3.750000
+Crime,1992,1274.56,4.080000
+Crime,1993,439.53,4.110000
+Crime,1994,1522.29,3.905000
+Crime,1995,1772.95,4.130000
+Crime,1996,2177.82,4.110000
+Crime,1997,1109.79,4.140000
+Crime,1998,1373.60,3.920000
+Crime,1999,671.55,4.170000
+Crime,2001,2417.20,4.170000
+Crime,2002,1060.82,4.170000
+Crime,2003,1402.83,4.160000
+Crime,2004,970.67,3.850000
+Crime,2012,355.81,3.910000
+Essays/Journalism,1830,1366.86,4.370000
+Essays/Journalism,1848,331.89,3.510000
+Essays/Journalism,1854,2044.35,3.790000
+Essays/Journalism,1859,1033.85,3.970000
+Essays/Journalism,1883,1030.71,4.050000
+Essays/Journalism,1890,543.91,4.210000
+Essays/Journalism,1956,1269.60,4.140000
+Essays/Journalism,1968,319.93,3.920000
+Essays/Journalism,1980,3192.00,4.070000
+Essays/Journalism,1988,799.11,4.100000
+Essays/Journalism,1992,892.04,3.970000
+Essays/Journalism,1993,129.69,3.980000
+Essays/Journalism,1994,349.83,4.100000
+Essays/Journalism,1995,442.89,3.910000
+Essays/Journalism,1997,3655.18,3.870000
+Essays/Journalism,1999,352.82,4.060000
+Essays/Journalism,2001,1032.93,4.040000
+Essays/Journalism,2003,7006.09,3.914286
+Essays/Journalism,2005,652.09,3.835000
+Essays/Journalism,2007,3524.83,3.984000
+Essays/Journalism,2008,42314.44,4.095000
+Essays/Journalism,2009,4995.57,4.057500
+Essays/Journalism,2010,130.68,3.860000
+Essays/Journalism,2011,3002.00,3.905000
+Essays/Journalism,2012,934.83,3.970000
+Essays/Journalism,2013,478.40,3.800000
+Essays/Journalism,2014,1150.20,4.170000
+Fantasy,1871,216.91,4.060000
+Fantasy,1945,1428.57,4.280000
+Fantasy,1952,706.32,4.020000
+Fantasy,1953,5245.36,3.950000
+Fantasy,1954,21564.00,3.900000
+Fantasy,1956,5980.00,4.020000
+Fantasy,1958,746.70,4.080000
+Fantasy,1961,4509.34,4.220000
+Fantasy,1968,5184.50,4.090000
+Fantasy,1972,210.94,4.110000
+Fantasy,1973,184.14,4.590000
+Fantasy,1975,3582.00,3.850000
+Fantasy,1977,6447.08,3.870000
+Fantasy,1978,322.92,4.130000
+Fantasy,1979,953.61,4.170000
+Fantasy,1982,1972.45,4.145000
+Fantasy,1983,334.88,4.130000
+Fantasy,1984,1756.95,4.146667
+Fantasy,1985,603.90,4.050000
+Fantasy,1986,1063.68,4.120000
+Fantasy,1987,7206.82,4.092500
+Fantasy,1988,223.74,3.860000
+Fantasy,1989,3506.38,4.263333
+Fantasy,1991,1856.15,4.260000
+Fantasy,1992,3492.90,4.060000
+Fantasy,1993,2150.93,4.145000
+Fantasy,1994,823.35,4.100000
+Fantasy,1995,13256.62,4.142500
+Fantasy,1996,408.87,4.063333
+Fantasy,1997,1490.41,4.210000
+Fantasy,1998,234.82,3.900000
+Fantasy,1999,1750.56,4.143333
+Fantasy,2000,1527.25,4.243333
+Fantasy,2001,3238.45,4.045000
+Fantasy,2002,9827.41,4.234286
+Fantasy,2003,21602.51,4.073750
+Fantasy,2004,19819.83,4.119091
+Fantasy,2005,14916.47,4.102308
+Fantasy,2006,17734.60,4.176667
+Fantasy,2007,31224.62,4.065455
+Fantasy,2008,23219.35,4.157500
+Fantasy,2009,9885.28,3.965714
+Fantasy,2010,14728.85,4.122857
+Fantasy,2011,70291.97,4.144286
+Fantasy,2012,4918.09,4.053000
+Fantasy,2013,3254.46,4.357500
+Fantasy,2014,11310.43,4.348750
+Fantasy,2015,24563.92,4.322500
+Fantasy,2016,1158.84,4.720000
+"Historical Fiction",1826,109.89,3.690000
+"Historical Fiction",1852,1771.10,3.830000
+"Historical Fiction",1871,1186.92,3.210000
+"Historical Fiction",1935,6897.34,4.180000
+"Historical Fiction",1958,2701.18,4.150000
+"Historical Fiction",1959,212.00,4.180000
+"Historical Fiction",1960,334.88,4.150000
+"Historical Fiction",1972,1024.29,4.310000
+"Historical Fiction",1974,105.93,4.300000
+"Historical Fiction",1975,2071.56,4.370000
+"Historical Fiction",1976,460.35,4.420000
+"Historical Fiction",1979,220.89,4.180000
+"Historical Fiction",1981,1474.23,3.990000
+"Historical Fiction",1982,2537.90,4.340000
+"Historical Fiction",1984,950.81,3.990000
+"Historical Fiction",1985,2413.65,4.325000
+"Historical Fiction",1989,846.94,4.340000
+"Historical Fiction",1993,8171.67,4.380000
+"Historical Fiction",1994,2289.44,3.940000
+"Historical Fiction",1996,1024.85,4.340000
+"Historical Fiction",1998,1103.31,3.885000
+"Historical Fiction",1999,1547.07,4.083333
+"Historical Fiction",2000,458.85,3.890000
+"Historical Fiction",2001,1362.90,4.130000
+"Historical Fiction",2003,1919.98,3.923333
+"Historical Fiction",2004,114.84,4.120000
+"Historical Fiction",2005,11378.45,3.970000
+"Historical Fiction",2006,874.92,3.885000
+"Historical Fiction",2007,1730.67,3.980000
+"Historical Fiction",2008,11540.19,4.112500
+"Historical Fiction",2009,7697.58,4.010000
+"Historical Fiction",2011,1341.66,4.053333
+"Historical Fiction",2012,3205.71,4.045000
+"Historical Fiction",2013,11702.67,3.740000
+"Historical Fiction",2014,224.87,3.580000
+"Historical Fiction",2015,930.35,4.070000
+"Historical Fiction",2016,538.92,4.040000
+Horror,1954,621.92,3.990000
+Horror,1967,588.82,3.960000
+Horror,1971,1399.32,4.140000
+Horror,1974,1227.54,3.960000
+Horror,1977,1191.26,3.820000
+Horror,1978,244.53,3.960000
+Horror,1979,3390.22,3.845000
+Horror,1980,3293.46,3.885000
+Horror,1981,7774.00,3.650000
+Horror,1983,1766.16,3.720000
+Horror,1984,1894.27,3.890000
+Horror,1985,957.72,3.930000
+Horror,1986,352.82,4.240000
+Horror,1987,1840.17,3.820000
+Horror,1989,550.16,3.740000
+Horror,1990,997.76,4.000000
+Horror,1991,2772.00,3.870000
+Horror,1992,1095.20,3.640000
+Horror,1993,442.52,4.020000
+Horror,1994,2311.05,3.790000
+Horror,1995,222.88,3.660000
+Horror,1996,196.02,3.800000
+Horror,1998,569.25,3.870000
+Horror,1999,1346.76,3.560000
+Horror,2000,439.53,4.130000
+Horror,2001,1576.84,3.590000
+Horror,2002,1411.57,3.835000
+Horror,2004,154.44,3.860000
+Horror,2005,1005.06,3.920000
+Horror,2006,9889.38,3.560000
+Horror,2007,331.89,3.820000
+Horror,2008,1316.37,3.980000
+Horror,2009,2228.58,3.966000
+Horror,2010,2458.60,4.056667
+Horror,2013,476.19,4.000000
+Horror,2014,568.86,3.750000
+"Literary Fiction",1390,891.00,3.480000
+"Literary Fiction",1864,910.86,4.170000
+"Literary Fiction",1891,9576.00,3.770000
+"Literary Fiction",1899,371.25,3.630000
+"Literary Fiction",1905,325.91,3.940000
+"Literary Fiction",1906,1419.63,3.720000
+"Literary Fiction",1908,891.02,3.910000
+"Literary Fiction",1911,405.53,3.350000
+"Literary Fiction",1912,331.89,3.900000
+"Literary Fiction",1914,397.67,3.850000
+"Literary Fiction",1918,582.54,3.760000
+"Literary Fiction",1922,117.81,3.740000
+"Literary Fiction",1925,2376.95,3.880000
+"Literary Fiction",1927,833.33,4.110000
+"Literary Fiction",1929,2445.10,3.860000
+"Literary Fiction",1930,461.68,3.720000
+"Literary Fiction",1933,118.80,3.830000
+"Literary Fiction",1940,789.74,3.965000
+"Literary Fiction",1945,1495.96,3.893333
+"Literary Fiction",1947,965.58,3.970000
+"Literary Fiction",1952,455.40,3.840000
+"Literary Fiction",1953,2154.60,4.190000
+"Literary Fiction",1957,854.93,4.030000
+"Literary Fiction",1958,1517.70,3.915000
+"Literary Fiction",1959,6454.12,3.510000
+"Literary Fiction",1961,735.64,3.890000
+"Literary Fiction",1967,6539.06,4.175000
+"Literary Fiction",1970,7971.39,3.895000
+"Literary Fiction",1971,343.85,4.010000
+"Literary Fiction",1973,502.68,3.990000
+"Literary Fiction",1980,346.84,4.040000
+"Literary Fiction",1981,1128.08,3.950000
+"Literary Fiction",1982,13466.17,4.233333
+"Literary Fiction",1984,115.83,3.570000
+"Literary Fiction",1985,2610.17,4.002500
+"Literary Fiction",1987,588.82,4.130000
+"Literary Fiction",1988,1635.93,3.940000
+"Literary Fiction",1989,1874.87,4.100000
+"Literary Fiction",1992,1446.73,3.876667
+"Literary Fiction",1993,32010.55,3.907500
+"Literary Fiction",1995,25184.14,3.916667
+"Literary Fiction",1996,2798.65,3.960000
+"Literary Fiction",1997,6885.89,3.970000
+"Literary Fiction",1998,8960.31,3.670000
+"Literary Fiction",1999,14253.48,3.865000
+"Literary Fiction",2000,2720.18,3.886667
+"Literary Fiction",2001,1772.06,3.835000
+"Literary Fiction",2002,1629.54,3.900000
+"Literary Fiction",2003,6913.71,4.006667
+"Literary Fiction",2004,2236.78,3.492500
+"Literary Fiction",2005,1859.34,3.626667
+"Literary Fiction",2006,4514.16,3.776667
+"Literary Fiction",2008,9209.10,3.695000
+"Literary Fiction",2009,11014.67,3.785714
+"Literary Fiction",2010,17534.56,3.816667
+"Literary Fiction",2011,6017.27,3.806250
+"Literary Fiction",2012,15556.02,3.806667
+"Literary Fiction",2013,6186.61,3.901667
+"Literary Fiction",2014,9105.85,3.850000
+"Literary Fiction",2015,50200.31,3.635000
+"Literary Fiction",2016,2977.76,3.783333
+Mystery,1859,768.46,3.980000
+Mystery,1894,3180.02,4.500000
+Mystery,1902,2356.16,4.090000
+Mystery,1914,1263.85,4.460000
+Mystery,1920,3012.45,3.980000
+Mystery,1926,842.24,4.200000
+Mystery,1930,1516.18,3.975000
+Mystery,1934,3742.50,4.160000
+Mystery,1994,26182.00,3.900000
+Mystery,2000,1188.00,3.970000
+Mystery,2002,169.50,4.340000
+Mystery,2005,1105.07,3.915000
+Mystery,2008,803.85,4.050000
+Mystery,2009,1757.25,3.810000
+Mystery,2012,426.93,3.210000
+Mystery,2013,198.99,3.820000
+Mystery,2014,784.08,3.985000
+Mystery,2015,1167.32,4.210000
+Romance,1994,915.11,3.570000
+Romance,1998,3459.42,3.805000
+Romance,1999,1771.38,3.576667
+Romance,2000,8569.34,4.100000
+Romance,2001,8166.28,3.940000
+Romance,2002,8948.91,3.860000
+Romance,2003,2531.43,4.060000
+Romance,2004,20460.63,3.896000
+Romance,2005,109.89,3.390000
+Romance,2006,9148.09,3.930000
+Romance,2007,3279.81,4.097500
+Romance,2008,12569.56,3.821667
+Romance,2009,15902.23,3.922857
+Romance,2010,774.52,4.073333
+Romance,2011,5881.16,3.978750
+Romance,2012,44316.48,4.103684
+Romance,2013,4965.42,4.174000
+Romance,2014,4704.68,3.936000
+Romance,2015,4432.22,3.890000
+Romance,2016,747.93,4.440000
+"Science Fiction",1864,1726.20,3.840000
+"Science Fiction",1869,3540.25,3.860000
+"Science Fiction",1896,640.93,3.720000
+"Science Fiction",1897,16085.81,3.710000
+"Science Fiction",1932,1676.64,4.160000
+"Science Fiction",1938,1112.77,3.620000
+"Science Fiction",1950,2147.85,4.190000
+"Science Fiction",1952,1094.34,4.200000
+"Science Fiction",1953,2978.25,4.236667
+"Science Fiction",1959,7570.42,4.040000
+"Science Fiction",1962,2280.46,3.660000
+"Science Fiction",1966,930.49,4.170000
+"Science Fiction",1969,1393.40,3.955000
+"Science Fiction",1970,117.81,3.960000
+"Science Fiction",1973,1824.50,4.065000
+"Science Fiction",1974,214.83,4.150000
+"Science Fiction",1976,1013.58,4.005000
+"Science Fiction",1980,12685.16,4.285000
+"Science Fiction",1982,2593.67,4.190000
+"Science Fiction",1984,1985.63,4.080000
+"Science Fiction",1985,1350.31,4.110000
+"Science Fiction",1987,4952.00,3.870000
+"Science Fiction",1989,470.25,4.210000
+"Science Fiction",1990,641.30,4.180000
+"Science Fiction",1991,1707.15,3.770000
+"Science Fiction",1992,573.85,3.960000
+"Science Fiction",1995,2369.52,3.955000
+"Science Fiction",1996,1022.21,3.740000
+"Science Fiction",1998,411.84,4.300000
+"Science Fiction",1999,13119.06,4.040000
+"Science Fiction",2003,7997.73,4.053333
+"Science Fiction",2005,3261.12,4.155000
+"Science Fiction",2006,2222.16,3.830000
+"Science Fiction",2007,524.70,4.180000
+"Science Fiction",2008,1136.02,3.960000
+"Science Fiction",2009,894.88,4.050000
+"Science Fiction",2011,4442.99,4.040000
+"Science Fiction",2012,6344.44,3.830000
+"Science Fiction",2013,5115.66,3.810000
+"Science Fiction",2014,1492.14,4.000000
+"Science Fiction",2015,112.86,4.460000
+"Self-Help & Instruction",1931,1864.03,4.140000
+"Self-Help & Instruction",1937,702.90,4.170000
+"Self-Help & Instruction",1950,15058.27,3.830000
+"Self-Help & Instruction",1952,325.91,4.080000
+"Self-Help & Instruction",1953,165.33,4.140000
+"Self-Help & Instruction",1972,665.55,4.310000
+"Self-Help & Instruction",1974,16297.34,3.760000
+"Self-Help & Instruction",1978,1042.84,4.030000
+"Self-Help & Instruction",1981,888.32,3.850000
+"Self-Help & Instruction",1982,1198.75,4.010000
+"Self-Help & Instruction",1992,670.88,3.890000
+"Self-Help & Instruction",1996,117.81,3.770000
+"Self-Help & Instruction",1997,11749.66,4.030000
+"Self-Help & Instruction",1998,5031.14,3.830000
+"Self-Help & Instruction",2000,11956.64,3.960000
+"Self-Help & Instruction",2001,598.50,3.980000
+"Self-Help & Instruction",2003,109.89,3.810000
+"Self-Help & Instruction",2005,483.12,4.020000
+"Self-Help & Instruction",2006,6278.84,3.930000
+"Self-Help & Instruction",2007,355.81,3.840000
+"Self-Help & Instruction",2009,177.21,3.570000
+"Self-Help & Instruction",2010,517.27,3.930000
+"Self-Help & Instruction",2011,29609.73,3.980000
+"Self-Help & Instruction",2013,6254.58,4.055000
+"Self-Help & Instruction",2014,319.93,4.400000
+Thriller,1886,568.86,3.940000
+Thriller,1971,171.27,4.250000
+Thriller,1979,1186.39,4.190000
+Thriller,1980,5696.85,3.550000
+Thriller,1986,17783.30,4.090000
+Thriller,1987,6184.79,4.075000
+Thriller,1989,1115.27,4.080000
+Thriller,1994,854.93,3.760000
+Thriller,1995,14555.16,4.023333
+Thriller,1996,694.30,3.785000
+Thriller,1997,5999.35,4.035000
+Thriller,1998,334.88,4.000000
+Thriller,1999,1287.44,3.943333
+Thriller,2000,1457.53,3.945000
+Thriller,2001,2230.01,4.105000
+Thriller,2002,3385.00,3.940000
+Thriller,2003,5500.41,3.846667
+Thriller,2004,1156.52,4.010000
+Thriller,2005,2206.79,4.027500
+Thriller,2006,15968.00,3.900000
+Thriller,2008,3678.30,3.850000
+Thriller,2009,848.30,3.220000
+Thriller,2010,1321.76,4.060000
+Thriller,2011,117.81,3.770000
+Thriller,2012,428.85,3.835000
+Thriller,2013,2432.58,3.836667
+Thriller,2014,4928.59,3.750000
+Thriller,2015,2572.05,3.768000
+Thriller,2016,2003.80,3.696667
+"Young Adult",1915,139.59,4.210000
+"Young Adult",1938,548.90,4.120000
+"Young Adult",1956,1502.02,4.060000
+"Young Adult",1963,878.90,4.150000
+"Young Adult",1970,1111.77,3.890000
+"Young Adult",1976,642.39,3.790000
+"Young Adult",1978,997.50,4.030000
+"Young Adult",1983,1867.80,4.270000
+"Young Adult",1990,777.40,3.860000
+"Young Adult",1991,10224.00,3.880000
+"Young Adult",1994,544.50,3.950000
+"Young Adult",1998,2106.45,3.970000
+"Young Adult",1999,997.50,3.740000
+"Young Adult",2000,997.50,3.800000
+"Young Adult",2001,109.89,3.940000
+"Young Adult",2002,583.83,3.810000
+"Young Adult",2003,1333.42,4.136667
+"Young Adult",2004,833.91,4.160000
+"Young Adult",2005,1414.14,4.010000
+"Young Adult",2006,12911.13,3.944000
+"Young Adult",2007,10384.00,4.110000
+"Young Adult",2008,1433.94,4.135000
+"Young Adult",2009,1913.40,4.160000
+"Young Adult",2010,8750.39,3.980000
+"Young Adult",2011,11884.11,3.928000
+"Young Adult",2012,10908.68,4.140000
+"Young Adult",2013,4034.57,4.170000
+"Young Adult",2014,2112.31,4.072500
+"Young Adult",2015,1768.08,4.160000

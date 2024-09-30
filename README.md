@@ -34,11 +34,11 @@ Created a visually engaging dashboard showing genre trends over time using **DAX
 ### **Results & Business Recommendation:**
 The Power BI dashboard provides stakeholders with clear insights into genre trends across decades, helping publishers decide where to invest resources for future book releases. Here's what the data showed:
 
-**Popular Genres**: Genres like Science Fiction and Fantasy have consistently grown, indicating a strong, sustained interest. Publishers should capitalize on this by releasing more books in these genres or focusing on niche sub-genres.
-**Declining Genres**: Romance and Historical Fiction have seen declining sales over time. A potential solution for publishers is to introduce new sub-genres, perhaps mixing Romance with other popular genres like Fantasy.
+**Popular Genres**: Genres like Romance and Fantasy have consistently grown, indicating a strong, sustained interest. Publishers should capitalize on this by releasing more books in these genres or focusing on niche sub-genres.
+**Declining Genres**: Literary and Historical Fiction have seen declining sales over time. A potential solution for publishers is to introduce new sub-genres, perhaps mixing historical with other popular genres like Fantasy to create a sort of hybrid-genre that entices loyal/eager readers.
 
 **Key Product Adjustments**:
-1. **Increased Marketing for Science Fiction & Fantasy**: Focus marketing efforts on these growing genres to capture more sales.
+1. **Increased Marketing for Romance & Fantasy**: Focus marketing efforts on these growing genres to capture more sales.
 2. **Targeted Campaigns for Declining Genres**: Introduce fresh sub-genres or rebrand older ones to spark renewed interest in declining genres like Romance.
 3. **Cross-Genre Experimentation**: Encourage authors to experiment with hybrid genres (e.g., Fantasy-Romance) to draw in readers from multiple fanbases.
 

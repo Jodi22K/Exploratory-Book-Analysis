@@ -35,15 +35,14 @@ Created a visually engaging dashboard showing genre trends over time using **DAX
 The Power BI dashboard provides stakeholders with clear insights into genre trends across decades, helping publishers decide where to invest resources for future book releases. Here's what the data showed:
 
 **Popular Genres**: Genres like Romance and Fantasy have consistently grown, indicating a strong, sustained interest. Publishers should capitalize on this by releasing more books in these genres or focusing on niche sub-genres.
-**Declining Genres**: Literary and Historical Fiction have seen declining sales over time. A potential solution for publishers is to introduce new sub-genres, perhaps mixing historical with other popular genres like Fantasy to create a sort of hybrid-genre that entices loyal/eager readers.
+**Declining Genres**: Thrilller, crime, and historical Fiction have seen declining sales over time. A potential solution for publishers is to introduce new sub-genres, perhaps mixing historical with other popular genres like Fantasy to create a sort of hybrid-genre that entices loyal/eager readers.
 
-**Key Product Adjustments**:
-1. **Increased Marketing for Romance & Fantasy**: Focus marketing efforts on these growing genres to capture more sales.
-2. **Targeted Campaigns for Declining Genres**: Introduce fresh sub-genres or rebrand older ones to spark renewed interest in declining genres like Romance.
-3. **Cross-Genre Experimentation**: Encourage authors to experiment with hybrid genres (e.g., Fantasy-Romance) to draw in readers from multiple fanbases.
+### **Key Product Adjustments**:
+2. **Targeted Campaigns for Declining Genres**: Introduce fresh sub-genres or rebrand older ones to spark renewed interest in declining genres.
+3. **Cross-Genre Experimentation**: Encourage intermediate authors to collaborate with Penguin, Random House, and Amazon Digital Services
 
-### **Next Steps**:.
-2. **Collaborate with Authors**: Work with authors to create content that aligns with trending genre preferences while incorporating elements from less popular genres.
-3. **Measure Success**: Use Power BI to track changes in genre popularity after implementing new strategies, evaluating the success of marketing efforts.
+### **Next Steps**:
+2. **Collaborate with Authors**: Work closely with novice and excellent rated authors to create content that aligns with current genre trends while incorporating elements from declining genres.
+3. **Track and Measure Success**: Use Power BI to monitor changes in genre and publisher popularity and evaluate the success of marketing efforts and product adjustments over time.
 
 By staying ahead of genre trends and making strategic adjustments, publishers can optimize sales while better meeting the evolving tastes of readers.

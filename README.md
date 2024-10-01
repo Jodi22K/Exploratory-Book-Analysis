@@ -5,7 +5,7 @@ This project explores the trends in book genres over time using **SQL** and **Po
 
 **Key Findings & Recommendations**:
 - **Key Genres Growing**: Romance, Science Fiction, and Fantasy have shown consistent growth, suggesting that publishers should increase their focus on these genres.
-- **Declining Genres**: Crime and Historical Fiction have seen a decrease in popularity. Publishers may need to reconsider their approach to promoting these genres or introduce sub-genres to attract new readers.
+- **Declining Genres**: Crime, Action, Advenure, Mystery, and Historical Fiction have seen a decrease in popularity. Publishers may need to reconsider their approach to promoting these genres or introduce sub-genres to attract new readers.
 - **Actionable Recommendations**:
   - Focus on emerging trends within popular genre. 
   - Develop targeted marketing strategies for declining genres to reignite interest, possibly by connecting with new, relevant audiences.
@@ -30,15 +30,15 @@ Created a visually engaging dashboard showing genre trends over time using **DAX
 + **SQL**: Proficiency with joins, CTEs, aggregate functions, and data transformation.
 + **Power BI**: Expertise in DAX, data visualization, ETL, and dashboard creation.
 
-
 ### **Results & Business Recommendation:**
 The Power BI dashboard provides stakeholders with clear insights into genre trends across decades, helping publishers decide where to invest resources for future book releases. Here's what the data showed:
 
-**Popular Genres**: Genres like Romance and Fantasy have consistently grown, indicating a strong, sustained interest. Publishers should capitalize on this by releasing more books in these genres or focusing on niche sub-genres.
+**Popular Genres**: Genres like r Fantasy, Romance, Sci-fi, Self,help and Literary fiction, have consistently grown, indicating a strong, sustained interest. Publishers should capitalize on this by focusing marketing efforts on these growing genres & releasing more books in these genres or focusing on niche sub-genres.
 **Declining Genres**: Thrilller, Crime, and historical Fiction have seen declining sales over time. A potential solution for publishers is to introduce new sub-genres, perhaps mixing historical with other popular genres like Fantasy to create a sort of hybrid-genre that entices loyal/eager readers.
 
 ### **Key Product Adjustments**:
-2. **Targeted Campaigns for Declining Genres**: Introduce fresh sub-genres or rebrand older ones to spark renewed interest in declining genres.
+2. **Targeted Campaigns for Declining Genres**: Introduce fresh sub-genres or rebrand declining ones, like crime, action, mystery, and adventure, to spark renewed interest in declining genres.  Encouraging authors to create works that combine elements of different genres (e.g., Romance-Adventure could attract readers from multiple demographics and fanbases
+ Encouraging authors to create works that combine elements of different genres (e.g., Romance-Adventure could attract readers from multiple demographics and fanbases.
 3. **Cross-Genre Experimentation**: Encourage intermediate authors to collaborate with Penguin, Random House, and Amazon Digital Services
 
 ### **Next Steps**:

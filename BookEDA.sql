@@ -164,16 +164,22 @@ ORDER BY
 SELECT * FROM vw_PublisherRevenue;
 
 ######
-CREATE VIEW vw_UnitsSoldByCategory AS
+CREATE VIEW vw_UnitsByCategory AS
 SELECT 
-    g.Genre,
-    p.publisher,
+    b.Genre,
+    b.publisher,
     a.Author_Rating,
-    SUM(`units sold`) AS total_units_sold
+    SUM(s.`units sold`) AS total_units_sold
 FROM 
-    genres g, publishers p, authors a;
-SELECT * FROM vw_UnitsSoldByCategory;
-DROP VIEW IF EXISTS vw_UnitsSoldByCategory;
+    books b
+INNER JOIN
+    authors a ON b.Author = a.Author  -- assuming books table has Author_ID to link with authors table
+INNER JOIN 
+    sales s ON b.`Book Name` = s.`Book Name`
+GROUP BY 
+	b.Genre, b.Publisher, a.Author_Rating;
+SELECT * FROM vw_UnitsByCategory;
+DROP VIEW IF EXISTS vw_UnitsByCategory;
 
 ######
 #general query for ratings over time sorted by author rating, publisher, or genre

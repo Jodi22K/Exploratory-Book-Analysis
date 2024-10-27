@@ -1,121 +1,197 @@
 # Perform some general cleaning to enure only 16 genres remains in books db - noticed excel cleaning missed some rows
 # Perform some general cleaning to remove and fix books with blank genres in books db
-SELECT *
-FROM books
-WHERE Genre = '';
+SELECT DISTINCT *
+FROM Books b
+WHERE b.Genre = '';
+
 UPDATE books
 SET Genre = 'Biography/Autobiography/Memoir'
-WHERE `Index` = 475;
+WHERE BookID = 165;
 
 UPDATE books
 SET Genre = 'Thriller'
-WHERE `Index` = 773;
-# Correct a misspelling in the Genre column
-UPDATE books
-SET Genre = 'Children''s Literature'
-WHERE Genre = 'Chidren''s Literature';
-
-# General cleaning for genres to ensure consistency
-UPDATE books
-SET Genre = 'Biography/Autobiography/Memoir'
-WHERE Genre = 'Biography/Autobiography';
-
-UPDATE books
-SET Genre = 'Self-Help & Instruction'
-WHERE Genre = 'Self-Help and Instruction';
-SELECT * FROM books;
-UPDATE books
-SET Genre = 'Adventure'
-WHERE `Index` = 548;
-
-UPDATE books
-SET Genre = 'Self-Help & Instruction'
-WHERE `Index` = 568;
-
-UPDATE books
-SET Genre = 'Biography/Autobiography/Memoir'
-WHERE `Index` = 256;
+WHERE BookID = 470;
 
 UPDATE books
 SET Genre = 'Essays/Journalism'
-WHERE Genre = 'Business/Leadership' AND `Index` = 401;
-
-UPDATE books
-SET Genre = 'Self-Help & Instruction'
-WHERE Genre = 'Business/Leadership' AND `Index` = 459;
-
-UPDATE books
-SET Genre = 'Thriller'
-WHERE Genre = 'Legal Thriller';
-
-UPDATE books
-SET Genre = 'Historical Fiction'
-WHERE Genre = 'Western';
-
-UPDATE books
-SET Genre = 'Essays/Journalism'
-WHERE Genre = 'Philosophy';
+WHERE `Book Name` = 'Holidays on Ice';
 
 UPDATE books
 SET Genre = 'Biography/Autobiography/Memoir'
-WHERE Genre = 'Humor';
-
-UPDATE books
-SET Genre = 'Science Fiction'
-WHERE Genre = 'Dystopian Fiction';
-
-UPDATE books
-SET Genre = 'Essays/Journalism'
-WHERE `Index` = 412;
-
-UPDATE books
-SET Genre = 'Biography/Autobiography/Memoir'
-WHERE `Index` = 297;
+WHERE `Book Name` = 'Persepolis';
 
 UPDATE books
 SET Genre = 'Adventure'
-WHERE `Index` = 222;
+WHERE `Book Name` = 'Scott Pilgrim, Volume 1: Scott Pilgrim''s Precious Little Life';
 
 UPDATE books
 SET Genre = 'Biography/Autobiography/Memoir'
-WHERE `Index` = 249;
+WHERE `Book Name` = 'Calvin and Hobbes';
 
 UPDATE books
-SET Genre = 'Classics'
-WHERE Genre = 'Drama';
+SET Genre = 'Adventure'
+WHERE `Book Name` = 'The Celestine Prophecy';
 
+UPDATE books
+SET Genre = 'Self-Help & Instruction'
+WHERE  `Book Name` = 'Tao Te Ching';
+SELECT genre FROM books WHERE BookID =35;;
+
+UPDATE books
+SET Genre = 'Biography/Autobiography/Memoir'
+WHERE  `Book Name` = 'Sh*t My Dad Says';
+
+UPDATE books
+SET Genre = 'Essays/Journalism'
+WHERE Genre = 'Business/Leadership' AND `Book Name` = 'Good to Great: Why Some Companies Make the Leap... and Others Don''t';
+
+UPDATE books
+SET Genre = 'Self-Help & Instruction'
+WHERE Genre = 'Business/Leadership' AND `Book Name` = 'Rework';
+
+UPDATE books b
+JOIN genres g ON g.genre = b.genre
+SET g.genre = 'Chidren''s Literature',
+    b.genre = 'Chidren''s Literature'
+WHERE b.genre LIKE '%Chidren''s Literature%'
+  AND g.genre LIKE '%Chidren''s Literature%';
+
+UPDATE books b
+JOIN genres g ON g.genre = b.genre
+SET g.genre = 'Self-Help & Instruction',
+    b.genre = 'Self-Help & Instruction'
+WHERE b.genre LIKE '%Self-Help and Instruction%'
+  AND g.genre LIKE '%Self-Help and Instruction%';
+  
+UPDATE books b
+JOIN genres g ON g.genre = b.genre
+SET g.genre = 'Thriller',
+    b.genre = 'Thriller'
+WHERE b.genre LIKE '%Legal Thriller%'
+  AND g.genre LIKE '%Legal Thriller%';
+
+UPDATE books b
+JOIN genres g ON g.genre = b.genre
+SET g.genre = 'Historical Fiction',
+    b.genre = 'Historical Fiction'
+WHERE b.genre LIKE '%Western%'
+  AND g.genre LIKE '%Western%';
+
+UPDATE books b
+JOIN genres g ON g.genre = b.genre
+SET g.genre = 'Biography/Autobiography/Memoir',
+    b.genre = 'Biography/Autobiography/Memoir'
+WHERE b.genre LIKE '%Humor%'
+  AND g.genre LIKE '%Humor%';
+
+UPDATE books b
+JOIN genres g ON g.genre = b.genre
+SET b.genre = 'Science Fiction',
+    g.genre = 'Science Fiction' 
+WHERE b.genre LIKE '%Dystopian Fiction%'
+  AND g.genre LIKE '%Dystopian Fiction%';
+
+UPDATE books b
+JOIN genres g ON g.genre = b.genre
+SET g.genre = 'Historical Fiction' AND
+    b.genre = 'Historical Fiction'
+WHERE b.genre LIKE '%Western%'
+  AND g.genre LIKE '%Western%';
+
+UPDATE books b
+JOIN genres g ON g.genre = b.genre
+SET g.genre = 'Classics',
+    b.genre = 'Classics'
+WHERE b.genre LIKE '%Drama%'
+  AND g.genre LIKE '%Drama%';
+  
 # Fixing author names 
-UPDATE books
-SET Author = 'Stephen King'
-WHERE Author LIKE '%Richard Bachman%';
-
-UPDATE books
-SET Author = 'Stephen King'
-WHERE Author LIKE '%Roberto Aguirre%';
- 
-UPDATE books
-SET Author = 'Robert Jordan, Brandon Sanderson'
-WHERE Author LIKE '%Brandon Sanderson, Robert Jordan%';
+UPDATE books b
+JOIN authors a ON b.Author = a.Author
+SET b.Author = 'Stephen King',
+    a.Author = 'Stephen King'
+WHERE b.Author LIKE '%Richard Bachman%'
+  AND a.Author LIKE '%Richard Bachman%';
+  
+UPDATE books b
+JOIN authors a ON b.Author = a.Author
+SET b.Author = 'Stephen King',
+    a.Author = 'Stephen King'
+WHERE b.Author LIKE '%Roberto Aguirre%'
+  AND a.Author LIKE '%Roberto Aguirre%';
 
 # Standardizing publisher names
 UPDATE books
-SET Publisher = 'HarperCollins'
-WHERE Publisher LIKE '%HarperCollins%';
+SET publisher = 'HarperCollins'
+WHERE publisher LIKE '%HarperCollin%';
 
-#final look at cleaned up table
-SELECT * FROM books;
+UPDATE publishers
+SET publisher = 'HarperCollins'
+WHERE publisher LIKE '%HarperCollin%';
 
+#####
 # With all our data cleaned up, we can now accurate organize the data according to highest rated genres
+CREATE VIEW vw_SalesByCategory AS
 SELECT 
-    Genre,
-    AVG(Book_average_rating) AS average_rating,
-    SUM(gross_sales) AS total_gross_sales
+    b.Genre,
+    b.Publisher,
+    a.Author_Rating,
+    SUM(s.`gross sales`) AS total_gross_sales
 FROM 
-    books
+    books b
+JOIN 
+    authors a ON b.Author = a.Author 
+JOIN 
+    sales s ON b.`Book Name` = s.`Book Name`
 GROUP BY 
-    Genre
+    b.Genre, b.Publisher, a.Author_Rating;
+
+SELECT * FROM vw_salesbycategory;
+DROP VIEW IF EXISTS vw_salesbycategory;
+
+#########
+#Next we will sum up our main Publishers to see who does best in gross sales, ratings, and units sold
+CREATE VIEW vw_PublisherRevenue AS
+SELECT DISTINCT
+	Publisher,
+    `Publisher Revenue` AS total_publisher_revenue
+FROM 
+    publishers
+GROUP BY 
+    Publisher, total_publisher_revenue
 ORDER BY 
-    average_rating DESC;
+    total_publisher_revenue DESC;
+SELECT * FROM vw_PublisherRevenue;
+
+######
+CREATE VIEW vw_UnitsSoldByCategory AS
+SELECT 
+    g.Genre,
+    p.publisher,
+    a.Author_Rating,
+    SUM(`units sold`) AS total_units_sold
+FROM 
+    genres g, publishers p, authors a;
+SELECT * FROM vw_UnitsSoldByCategory;
+DROP VIEW IF EXISTS vw_UnitsSoldByCategory;
+
+######
+#general query for ratings over time sorted by author rating, publisher, or genre
+CREATE VIEW vw_AvgRating AS
+SELECT 
+    b.`Publishing Year`,
+    b.Genre,
+    b.Publisher,
+    a.Author_Rating,
+    AVG(b.`Book Average Rating`) AS average_rating
+FROM 
+    books b
+INNER JOIN
+    authors a ON b.Author = a.Author  -- assuming books table has Author_ID to link with authors table
+GROUP BY 
+    b.`Publishing Year`, b.Genre, b.Publisher, a.Author_Rating;
+SELECT * FROM vw_AvgRating;
+DROP VIEW vw_AvgRating;
 
 #We also want the top authors based on various values for all their books
 SELECT 
@@ -130,100 +206,3 @@ GROUP BY
     Prim_Author
 ORDER BY 
     sales_rank;
-    
-#Next we will sum up our main Publishers to see who does best in gross sales, ratings, and units sold
-SELECT 
-    Publisher,
-    SUM(gross_sales) AS total_gross_sales,
-    AVG(Book_average_rating) AS average_rating,
-    SUM(publisher_revenue) AS total_publisher_revenue
-FROM 
-    books
-GROUP BY 
-    Publisher
-ORDER BY 
-    total_gross_sales DESC;
-    
-# Analyze genre performance over time (grouping by genre and publishing year)
-SELECT 
-    Genre,
-    Publishing_Year,
-    SUM(gross_sales) AS total_gross_sales,
-    AVG(Book_average_rating) AS average_rating
-FROM 
-    books
-GROUP BY 
-    Genre, Publishing_Year
-ORDER BY 
-    Genre, Publishing_Year;
-
-    
-# Find publisher performance in specific genres, ranked by total gross sales
-SELECT 
-    Publisher,
-    Genre,
-    SUM(gross_sales) AS total_gross_sales,
-    AVG(Book_average_rating) AS average_rating,
-    SUM(units_sold) AS total_units_sold
-FROM 
-    books
-GROUP BY 
-    Publisher, Genre
-ORDER BY 
-    total_gross_sales DESC;
-    
-
-# Find the books with the highest sale prices and their corresponding sales performance
-SELECT 
-    Book_Name,
-    Author,
-    Genre,
-    sale_price,
-    gross_sales,
-    units_sold
-FROM 
-    books
-ORDER BY 
-    sale_price DESC
-LIMIT 10;
-
-SELECT 
-    Genre,
-    Publishing_Year,
-    SUM(gross_sales) AS total_gross_sales,
-    AVG(Book_average_rating) AS average_rating
-FROM 
-    books
-GROUP BY 
-    Genre, Publishing_Year
-ORDER BY 
-    Genre, Publishing_Year;
-    
-# Step 11: Analyze how author rating correlates with gross sales, average book rating,  over time
-SELECT 
-    Author_Rating,
-    Publishing_Year,
-    SUM(gross_sales) AS total_gross_sales,
-    AVG(Book_average_rating) AS average_book_rating
-FROM  
-    books
-GROUP BY 
-    Author_Rating,  -- Grouping by Author Rating to track by category
-    Publishing_Year -- Grouping by year to track changes over time
-ORDER BY 
-    Publishing_Year, -- Sorting results by year for proper chronological order
-    Author_Rating;  -- Sorting by Author Rating for better readability
-
-#general query for ratings over time sorted by author rating, publisher, or genre
-SELECT 
-    Publishing_Year,
-    Genre,
-    Publisher,
-    Author_Rating,
-    AVG(Book_average_rating) AS average_rating
-FROM 
-    books
-GROUP BY 
-    Publishing_Year, Genre, Publisher, Author_Rating
-ORDER BY 
-    Publishing_Year;  -- Default sorting by year

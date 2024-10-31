@@ -1,5 +1,5 @@
-# Perform some general cleaning to enure only 16 genres remains in books db - noticed excel cleaning missed some rows
-# Perform some general cleaning to remove and fix books with blank genres in books db
+# Perform some general cleaning to enure only 16 genres remains in books db - noticed some rows missed in initial excel cleaning
+# Identify and further clean specific rows with incorrect or blank information in Books, Sales, Authors, and Publishers tables to ensure data integrity
 SELECT DISTINCT *
 FROM Books b
 WHERE b.Genre = '';
@@ -35,7 +35,7 @@ WHERE `Book Name` = 'The Celestine Prophecy';
 UPDATE books
 SET Genre = 'Self-Help & Instruction'
 WHERE  `Book Name` = 'Tao Te Ching';
-SELECT genre FROM books WHERE BookID =35;;
+SELECT genre FROM books WHERE BookID =35;
 
 UPDATE books
 SET Genre = 'Biography/Autobiography/Memoir'
@@ -49,6 +49,7 @@ UPDATE books
 SET Genre = 'Self-Help & Instruction'
 WHERE Genre = 'Business/Leadership' AND `Book Name` = 'Rework';
 
+# Correct and standardize incorrect genre names across tables
 UPDATE books b
 JOIN genres g ON g.genre = b.genre
 SET g.genre = 'Chidren''s Literature',
@@ -125,64 +126,118 @@ UPDATE books
 SET publisher = 'HarperCollins'
 WHERE publisher LIKE '%HarperCollin%';
 
+# Correct and standardize publisher names across tables
 UPDATE publishers
 SET publisher = 'HarperCollins'
 WHERE publisher LIKE '%HarperCollin%';
 
-#####
-# With all our data cleaned up, we can now accurate organize the data according to highest rated genres
-CREATE VIEW vw_SalesByCategory AS
+# Consolidate publisher revenue by summing and removing duplicates
+SELECT SUM(`Publisher Revenue`) AS total_revenue
+FROM publishers
+WHERE Publisher = 'HarperCollins';
+SET @total_revenue = (
+    SELECT SUM(`Publisher Revenue`)
+    FROM publishers
+    WHERE Publisher = 'HarperCollins'
+);
+
+DELETE FROM publishers 
+WHERE Publisher = 'HarperCollins' AND PublisherID <> 4;
+
+UPDATE publishers
+SET `Publisher Revenue` = @total_revenue
+WHERE PublisherID = 4;
+
+# View all data for validation
+SELECT * FROM books;
+SELECT * FROM genres;
+SELECT * FROM publishers;
+SELECT * FROM sales;
+SELECT * FROM authors;
+
+# Since authors may have multiple author ratings, create view to rank authors based on their rating values
+CREATE VIEW vw_HighestAuthorRating AS
 SELECT 
+    b.BookID,
+    b.`Book Name`,
     b.Genre,
     b.Publisher,
-    a.Author_Rating,
-    SUM(s.`gross sales`) AS total_gross_sales
+    b.`Publishing Year`,
+    a.Author,
+    a.Author_rating,
+    CASE 
+        WHEN a.Author_rating = 'Excellent' THEN 3
+        WHEN a.Author_rating = 'Famous' THEN 2
+        WHEN a.Author_rating = 'Intermediate' THEN 1
+        WHEN a.Author_rating = 'Novice' THEN 0
+        ELSE -1  -- Unknown ratings get the lowest priority
+    END AS rating_value
 FROM 
     books b
-JOIN 
-    authors a ON b.Author = a.Author 
-JOIN 
-    sales s ON b.`Book Name` = s.`Book Name`
-GROUP BY 
-    b.Genre, b.Publisher, a.Author_Rating;
-
-SELECT * FROM vw_salesbycategory;
-DROP VIEW IF EXISTS vw_salesbycategory;
-
-#########
-#Next we will sum up our main Publishers to see who does best in gross sales, ratings, and units sold
-CREATE VIEW vw_PublisherRevenue AS
-SELECT DISTINCT
-	Publisher,
-    `Publisher Revenue` AS total_publisher_revenue
-FROM 
-    publishers
-GROUP BY 
-    Publisher, total_publisher_revenue
-ORDER BY 
-    total_publisher_revenue DESC;
-SELECT * FROM vw_PublisherRevenue;
-
-######
-CREATE VIEW vw_UnitsByCategory AS
-SELECT 
-    b.Genre,
-    b.publisher,
-    a.Author_Rating,
-    SUM(s.`units sold`) AS total_units_sold
-FROM 
-    books b
-INNER JOIN
-    authors a ON b.Author = a.Author  -- assuming books table has Author_ID to link with authors table
 INNER JOIN 
-    sales s ON b.`Book Name` = s.`Book Name`
-GROUP BY 
-	b.Genre, b.Publisher, a.Author_Rating;
-SELECT * FROM vw_UnitsByCategory;
-DROP VIEW IF EXISTS vw_UnitsByCategory;
+    authors a ON b.Author = a.Author;
+SELECT * FROM vw_HighestAuthorRating;
 
-######
-#general query for ratings over time sorted by author rating, publisher, or genre
+CREATE VIEW vw_Top100Books AS
+SELECT 
+    h.BookID,
+    h.`Book Name`,
+    h.Genre,
+    h.Publisher,
+    h.Author,
+    h.Author_rating,
+    h.`Publishing Year`,
+    SUM(s.`gross sales`) AS total_gross_sales,
+    SUM(s.`publisher revenue`) AS total_publisher_revenue,
+    SUM(s.`units sold`) AS total_units_sold,
+    AVG(b.`Book Average Rating`) AS average_rating
+FROM 
+    vw_HighestAuthorRating h
+INNER JOIN 
+    (SELECT BookID, MAX(rating_value) AS max_rating_value
+     FROM vw_HighestAuthorRating
+     GROUP BY BookID) max_ratings 
+     ON h.BookID = max_ratings.BookID AND h.rating_value = max_ratings.max_rating_value
+INNER JOIN 
+    sales s ON h.BookID = s.BookID
+INNER JOIN 
+    books b ON h.BookID = b.BookID
+GROUP BY 
+    h.BookID, h.`Book Name`, h.Genre, h.Publisher, h.Author, h.Author_rating, h.`Publishing Year`
+ORDER BY 
+    total_gross_sales DESC
+LIMIT 100;
+
+# Creating view of top 100 books ordered by gross sales and sorted by sales, units sold, avg rating, and publisher revenue
+CREATE VIEW vw_Top100Books AS
+SELECT 
+    b.BookID,
+    b.`Book Name`,
+    b.Genre,
+    b.Publisher,
+    a.Author,
+    a.Author_rating,
+    b.`Publishing Year`,
+	SUM(s.`gross sales`) AS total_gross_sales,
+    SUM(s.`publisher revenue`) AS total_publisher_revenue,
+    SUM(s.`units sold`) AS total_units_sold,
+    AVG(b.`Book Average Rating`) AS average_rating
+FROM 
+    books b
+INNER JOIN 
+    authors a ON b.Author = a.Author
+INNER JOIN 
+    sales s ON b.BookID = s.BookID   
+GROUP BY 
+    b.BookID, b.`Book Name`,b.`Publishing Year`, b.Genre, b.Publisher,a.Author_Rating, a.Author
+ORDER BY
+	total_gross_sales DESC
+LIMIT 100;
+#View verification
+SELECT * FROM vw_Top100Books;
+DROP VIEW vw_Top100Books;
+
+# Creating a view to calculate average rating over time for genre, publisher, and author
 CREATE VIEW vw_AvgRating AS
 SELECT 
     b.`Publishing Year`,
@@ -196,19 +251,94 @@ INNER JOIN
     authors a ON b.Author = a.Author  -- assuming books table has Author_ID to link with authors table
 GROUP BY 
     b.`Publishing Year`, b.Genre, b.Publisher, a.Author_Rating;
+
+# View Verification
 SELECT * FROM vw_AvgRating;
 DROP VIEW vw_AvgRating;
 
-#We also want the top authors based on various values for all their books
+    
+# Next create views for publisher, genre, and author rating metrics, all sorted by same KPIs - total sales, avg rating, publisher revenue, and units sold
+
+# PUBLISHER METRICS
+CREATE VIEW vw_PublisherMetrics AS
 SELECT 
-    SUBSTRING_INDEX(Author, ',', 1) AS Prim_Author,
-    SUM(gross_sales) AS total_gross_sales,
-    COUNT(Book_Name) AS book_count,
-    SUM(units_sold) AS total_units_sold,
-    RANK() OVER (ORDER BY SUM(gross_sales) DESC) AS sales_rank
+    p.Publisher,
+	p.`Publisher Revenue`,
+    SUM(s.`units sold`) AS total_units_sold,
+    SUM(s.`gross sales`) AS total_gross_sales,
+    AVG(b.`Book Average Rating`) AS average_rating
 FROM 
-    books
+    books b
+INNER JOIN 
+    publishers p ON b.Publisher = p.Publisher
+ INNER JOIN 
+    sales s ON b.`Book Name` = s.`Book Name`
 GROUP BY 
-    Prim_Author
-ORDER BY 
-    sales_rank;
+    p.Publisher, p.`Publisher Revenue`;
+    
+# View Verification
+SELECT * FROM vw_PublisherMetrics;
+DROP VIEW vw_PublisherMetrics;
+
+# GENRE METRICS
+CREATE VIEW vw_GenreMetrics AS
+SELECT 
+    g.Genre,
+    SUM(s.`publisher revenue`) AS total_publisher_revenue,
+    SUM(s.`units sold`) AS total_units_sold,
+    SUM(s.`gross sales`) AS total_gross_sales,
+    AVG(b.`Book Average Rating`) AS average_rating
+FROM 
+    books b
+INNER JOIN 
+    genres g ON b.Genre = g.Genre
+INNER JOIN 
+    sales s ON b.`Book Name` = s.`Book Name`
+GROUP BY 
+    g.Genre;
+    
+# View Verification
+SELECT * FROM vw_GenreMetrics;
+DROP VIEW vw_GenreMetrics;
+
+# AUTHOR METRICS
+CREATE VIEW vw_AuthorMetrics AS
+SELECT 
+    a.Author_rating,
+	SUM(s.`publisher revenue`) AS total_publisher_revenue,
+    SUM(s.`units sold`) AS total_units_sold,
+    SUM(s.`gross sales`) AS total_gross_sales,
+    AVG(b.`Book Average Rating`) AS average_rating
+FROM 
+    books b
+INNER JOIN 
+    authors a ON b.Author = a.Author
+INNER JOIN 
+    publishers p ON b.Publisher = p.Publisher
+INNER JOIN 
+    sales s ON b.`Book Name` = s.`Book Name`
+GROUP BY 
+    a.Author_rating;
+    
+# View Verification
+SELECT * FROM vw_AuthorMetrics;
+DROP VIEW vw_AuthorMetrics;
+
+CREATE VIEW vw_AvgRating AS
+SELECT 
+    b.`Publishing Year`,
+    b.Genre,
+    b.Publisher,
+    a.Author_Rating,
+    AVG(b.`Book Average Rating`) AS average_rating
+FROM 
+    books b
+INNER JOIN
+    authors a ON b.Author = a.Author  -- assuming books table has Author_ID to link with authors table
+GROUP BY 
+    b.`Publishing Year`, b.Genre, b.Publisher, a.Author_Rating;
+    
+# View Verification
+SELECT * FROM vw_AuthorMetrics;
+DROP VIEW vw_AuthorMetrics;
+

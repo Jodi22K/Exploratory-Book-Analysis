@@ -25,6 +25,8 @@ Used **CRUD** operations, **CTEs** and **aggregate functions** to calculate requ
 + **Power BI**:
 Created a visually engaging dashboard showing genre trends over time using **DAX functions**, calculated columns, and **data modeling**.
 
+
+
 ### **Skills**:
 + **EXCEL**: Data Cleaning, Data Manipulation
 + **SQL**: Proficiency with joins, CTEs, aggregate functions, and data transformation.

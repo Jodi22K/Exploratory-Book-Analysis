@@ -25,12 +25,15 @@ Used **CRUD** operations, **CTEs** and **aggregate functions** to calculate requ
 + **Power BI**:
 Created a visually engaging dashboard showing genre trends over time using **DAX functions**, calculated columns, and **data modeling**.
 
-
-
 ### **Skills**:
 + **EXCEL**: Data Cleaning, Data Manipulation
-+ **SQL**: Proficiency with joins, CTEs, aggregate functions, and data transformation.
++ **SQL**: Proficiency with joins, views, subqueries, CRUD functions, aggregate functions, and data cleansing/transformation techniques
 + **Power BI**: Expertise in DAX, data visualization, ETL, and dashboard creation.
+
+### 
+> ![alt text](pb1.png)
+> ![alt text](pb2.png)
+> ![alt text](pb3.png)
 
 ### **Results & Business Recommendation:**
 The Power BI dashboard provides stakeholders with clear insights into genre trends across decades, helping publishers decide where to invest resources for future book releases. Here's what the data showed:

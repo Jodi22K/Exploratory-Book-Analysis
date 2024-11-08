@@ -21,7 +21,7 @@ Publishing companies and authors need to understand changing reader preferences 
 + **Excel**:
 Cleaned the dataset to standardize genre names and authors, eliminate inaccurate ajd incomplete data manually with Excel.
 + **SQL**:
-Used **CRUD** operations, **CTEs** and **aggregate functions** to calculate required metrics
+Used cleansing, augmentation, and functions to effectively transform and synthesize necessary data for PowerBI, calculating required metrics
 + **Power BI**:
 Created a visually engaging dashboard showing genre trends over time using **DAX functions**, calculated columns, and **data modeling**.
 
@@ -39,15 +39,14 @@ Created a visually engaging dashboard showing genre trends over time using **DAX
 The Power BI dashboard provides stakeholders with clear insights into genre trends across decades, helping publishers decide where to invest resources for future book releases. Here's what the data showed:
 
 **Popular Genres**: Genres like r Fantasy, Romance, Sci-fi, Self,help and Literary fiction, have consistently grown, indicating a strong, sustained interest. Publishers should capitalize on this by focusing marketing efforts on these growing genres & releasing more books in these genres or focusing on niche sub-genres.
-**Declining Genres**: Thrilller, Crime, and historical Fiction have seen declining sales over time. A potential solution for publishers is to introduce new sub-genres, perhaps mixing historical with other popular genres like Fantasy to create a sort of hybrid-genre that entices loyal/eager readers.
+**Declining Genres**: Thrilller, Crime, adventure, and historical Fiction have seen declining sales over time. A potential solution for publishers is to introduce new sub-genres, perhaps mixing historical with other popular genres like Fantasy to create a sort of hybrid-genre that entices loyal/eager readers.
 
 ### **Key Product Adjustments**:
-2. **Targeted Campaigns for Declining Genres**: Introduce fresh sub-genres or rebrand declining ones, like crime, action, mystery, and adventure, to spark renewed interest in declining genres.  Encouraging authors to create works that combine elements of different genres (e.g., Romance-Adventure could attract readers from multiple demographics and fanbases
- Encouraging authors to create works that combine elements of different genres (e.g., Romance-Adventure could attract readers from multiple demographics and fanbases.
+2. **Targeted Campaigns for Declining Genres**: Introduce fresh sub-genres or rebrand declining ones, like crime, action, mystery, and adventure, to spark renewed interest in declining genres.  Encouraging authors to create works that combine elements of different genres (e.g., Romance-HIstorical fiction could attract readers from multiple demographics, or fantasy pieces that read as literary fiction draws loyal readers from both fanbases as well). 
 3. **Cross-Genre Experimentation**: Encourage intermediate authors to collaborate with Penguin, Random House, and Amazon Digital Services
 
 ### **Next Steps**:
-2. **Collaborate with Authors**: Work closely with novice and excellent rated authors to create content that aligns with current genre trends while incorporating elements from declining genres.
+2. **Collaborate with Authors**: Work closely with intermediate and excellent rated authors to create content that aligns with current genre trends while incorporating elements from declining genres.
 3. **Track and Measure Success**: Use Power BI to monitor changes in genre and publisher popularity and evaluate the success of marketing efforts and product adjustments over time.
 
 By staying ahead of genre trends and making strategic adjustments, publishers can optimize sales while better meeting the evolving tastes of readers.
